@@ -8360,6 +8360,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49b0eb722384f6b47873e4b61ccebd1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 848490476}
+  speed: 3
+  backSpeed: 1.5
+  maxDist: 10
+  minDist: 2
 --- !u!50 &1869574948
 Rigidbody2D:
   serializedVersion: 4
