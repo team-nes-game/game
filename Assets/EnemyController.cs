@@ -6,6 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     public GameObject player;
     public float speed;
+    public float backSpeed;
     public float maxDist;
     public float minDist;
 
@@ -18,7 +19,20 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.position * speed * Time.deltaTime;
- 
+        float distance = Vector3.Distance(player.transform.position, transform.position);
+
+        if (distance < maxDist && distance > minDist)
+        {
+            transform.position += (player.transform.position - transform.position) * (1 / speed) * Time.deltaTime;
+        }
+        else if(distance == minDist)
+        {
+            // do nothing
+        }
+        else if(distance < minDist)
+        {
+            transform.position -= (player.transform.position - transform.position) * (1 / backSpeed) * Time.deltaTime;
+        }
+
     }
 }
