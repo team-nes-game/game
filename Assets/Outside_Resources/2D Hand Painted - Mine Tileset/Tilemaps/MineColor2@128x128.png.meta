@@ -1,266 +1,774 @@
 fileFormatVersion: 2
 guid: 136fe9cd575049e4e83f4368f3ed8291
-timeCreated: 1511616954
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: MineColor2@128x128_0
-    21300002: MineColor2@128x128_1
-    21300004: MineColor2@128x128_2
-    21300006: MineColor2@128x128_3
-    21300008: MineColor2@128x128_4
-    21300010: MineColor2@128x128_5
-    21300012: MineColor2@128x128_6
-    21300014: MineColor2@128x128_7
-    21300016: MineColor2@128x128_8
-    21300018: MineColor2@128x128_9
-    21300020: MineColor2@128x128_10
-    21300022: MineColor2@128x128_11
-    21300024: MineColor2@128x128_12
-    21300026: MineColor2@128x128_13
-    21300028: MineColor2@128x128_14
-    21300030: MineColor2@128x128_15
-    21300032: MineColor2@128x128_16
-    21300034: MineColor2@128x128_17
-    21300036: MineColor2@128x128_18
-    21300038: MineColor2@128x128_19
-    21300040: MineColor2@128x128_20
-    21300042: MineColor2@128x128_21
-    21300044: MineColor2@128x128_22
-    21300046: MineColor2@128x128_23
-    21300048: MineColor2@128x128_24
-    21300050: MineColor2@128x128_25
-    21300052: MineColor2@128x128_26
-    21300054: MineColor2@128x128_27
-    21300056: MineColor2@128x128_28
-    21300058: MineColor2@128x128_29
-    21300060: MineColor2@128x128_30
-    21300062: MineColor2@128x128_31
-    21300064: MineColor2@128x128_32
-    21300066: MineColor2@128x128_33
-    21300068: MineColor2@128x128_34
-    21300070: MineColor2@128x128_35
-    21300072: MineColor2@128x128_36
-    21300074: MineColor2@128x128_37
-    21300076: MineColor2@128x128_38
-    21300078: MineColor2@128x128_39
-    21300080: MineColor2@128x128_40
-    21300082: MineColor2@128x128_41
-    21300084: MineColor2@128x128_42
-    21300086: MineColor2@128x128_43
-    21300088: MineColor2@128x128_44
-    21300090: MineColor2@128x128_45
-    21300092: MineColor2@128x128_46
-    21300094: MineColor2@128x128_47
-    21300096: MineColor2@128x128_48
-    21300098: MineColor2@128x128_49
-    21300100: MineColor2@128x128_50
-    21300102: MineColor2@128x128_51
-    21300104: MineColor2@128x128_52
-    21300106: MineColor2@128x128_53
-    21300108: MineColor2@128x128_54
-    21300110: MineColor2@128x128_55
-    21300112: MineColor2@128x128_56
-    21300114: MineColor2@128x128_57
-    21300116: MineColor2@128x128_58
-    21300118: MineColor2@128x128_59
-    21300120: MineColor2@128x128_60
-    21300122: MineColor2@128x128_61
-    21300124: MineColor2@128x128_62
-    21300126: MineColor2@128x128_63
-    21300128: MineColor2@128x128_64
-    21300130: MineColor2@128x128_65
-    21300132: MineColor2@128x128_66
-    21300134: MineColor2@128x128_67
-    21300136: MineColor2@128x128_68
-    21300138: MineColor2@128x128_69
-    21300140: MineColor2@128x128_70
-    21300142: MineColor2@128x128_71
-    21300144: MineColor2@128x128_72
-    21300146: MineColor2@128x128_73
-    21300148: MineColor2@128x128_74
-    21300150: MineColor2@128x128_75
-    21300152: MineColor2@128x128_76
-    21300154: MineColor2@128x128_77
-    21300156: MineColor2@128x128_78
-    21300158: MineColor2@128x128_79
-    21300160: MineColor2@128x128_80
-    21300162: MineColor2@128x128_81
-    21300164: MineColor2@128x128_82
-    21300166: MineColor2@128x128_83
-    21300168: MineColor2@128x128_84
-    21300170: MineColor2@128x128_85
-    21300172: MineColor2@128x128_86
-    21300174: MineColor2@128x128_87
-    21300176: MineColor2@128x128_88
-    21300178: MineColor2@128x128_89
-    21300180: MineColor2@128x128_90
-    21300182: MineColor2@128x128_91
-    21300184: MineColor2@128x128_92
-    21300186: MineColor2@128x128_93
-    21300188: MineColor2@128x128_94
-    21300190: MineColor2@128x128_95
-    21300192: MineColor2@128x128_96
-    21300194: MineColor2@128x128_97
-    21300196: MineColor2@128x128_98
-    21300198: MineColor2@128x128_99
-    21300200: MineColor2@128x128_100
-    21300202: MineColor2@128x128_101
-    21300204: MineColor2@128x128_102
-    21300206: MineColor2@128x128_103
-    21300208: MineColor2@128x128_104
-    21300210: MineColor2@128x128_105
-    21300212: MineColor2@128x128_106
-    21300214: MineColor2@128x128_107
-    21300216: MineColor2@128x128_108
-    21300218: MineColor2@128x128_109
-    21300220: MineColor2@128x128_110
-    21300222: MineColor2@128x128_111
-    21300224: MineColor2@128x128_112
-    21300226: MineColor2@128x128_113
-    21300228: MineColor2@128x128_114
-    21300230: MineColor2@128x128_115
-    21300232: MineColor2@128x128_116
-    21300234: MineColor2@128x128_117
-    21300236: MineColor2@128x128_118
-    21300238: MineColor2@128x128_119
-    21300240: MineColor2@128x128_120
-    21300242: MineColor2@128x128_121
-    21300244: MineColor2@128x128_122
-    21300246: MineColor2@128x128_123
-    21300248: MineColor2@128x128_124
-    21300250: MineColor2@128x128_125
-    21300252: MineColor2@128x128_126
-    21300254: MineColor2@128x128_127
-    21300256: MineColor2@128x128_128
-    21300258: MineColor2@128x128_129
-    21300260: MineColor2@128x128_130
-    21300262: MineColor2@128x128_131
-    21300264: MineColor2@128x128_132
-    21300266: MineColor2@128x128_133
-    21300268: MineColor2@128x128_134
-    21300270: MineColor2@128x128_135
-    21300272: MineColor2@128x128_136
-    21300274: MineColor2@128x128_137
-    21300276: MineColor2@128x128_138
-    21300278: MineColor2@128x128_139
-    21300280: MineColor2@128x128_140
-    21300282: MineColor2@128x128_141
-    21300284: MineColor2@128x128_142
-    21300286: MineColor2@128x128_143
-    21300288: MineColor2@128x128_144
-    21300290: MineColor2@128x128_145
-    21300292: MineColor2@128x128_146
-    21300294: MineColor2@128x128_147
-    21300296: MineColor2@128x128_148
-    21300298: MineColor2@128x128_149
-    21300300: MineColor2@128x128_150
-    21300302: MineColor2@128x128_151
-    21300304: MineColor2@128x128_152
-    21300306: MineColor2@128x128_153
-    21300308: MineColor2@128x128_154
-    21300310: MineColor2@128x128_155
-    21300312: MineColor2@128x128_156
-    21300314: MineColor2@128x128_157
-    21300316: MineColor2@128x128_158
-    21300318: MineColor2@128x128_159
-    21300320: MineColor2@128x128_160
-    21300322: MineColor2@128x128_161
-    21300324: MineColor2@128x128_162
-    21300326: MineColor2@128x128_163
-    21300328: MineColor2@128x128_164
-    21300330: MineColor2@128x128_165
-    21300332: MineColor2@128x128_166
-    21300334: MineColor2@128x128_167
-    21300336: MineColor2@128x128_168
-    21300338: MineColor2@128x128_169
-    21300340: MineColor2@128x128_170
-    21300342: MineColor2@128x128_171
-    21300344: MineColor2@128x128_172
-    21300346: MineColor2@128x128_173
-    21300348: MineColor2@128x128_174
-    21300350: MineColor2@128x128_175
-    21300352: MineColor2@128x128_176
-    21300354: MineColor2@128x128_177
-    21300356: MineColor2@128x128_178
-    21300358: MineColor2@128x128_179
-    21300360: MineColor2@128x128_180
-    21300362: MineColor2@128x128_181
-    21300364: MineColor2@128x128_182
-    21300366: MineColor2@128x128_183
-    21300368: MineColor2@128x128_184
-    21300370: MineColor2@128x128_185
-    21300372: MineColor2@128x128_186
-    21300374: MineColor2@128x128_187
-    21300376: MineColor2@128x128_188
-    21300378: MineColor2@128x128_189
-    21300380: MineColor2@128x128_190
-    21300382: MineColor2@128x128_191
-    21300384: MineColor2@128x128_192
-    21300386: MineColor2@128x128_193
-    21300388: MineColor2@128x128_194
-    21300390: MineColor2@128x128_195
-    21300392: MineColor2@128x128_196
-    21300394: MineColor2@128x128_197
-    21300396: MineColor2@128x128_198
-    21300398: MineColor2@128x128_199
-    21300400: MineColor2@128x128_200
-    21300402: MineColor2@128x128_201
-    21300404: MineColor2@128x128_202
-    21300406: MineColor2@128x128_203
-    21300408: MineColor2@128x128_204
-    21300410: MineColor2@128x128_205
-    21300412: MineColor2@128x128_206
-    21300414: MineColor2@128x128_207
-    21300416: MineColor2@128x128_208
-    21300418: MineColor2@128x128_209
-    21300420: MineColor2@128x128_210
-    21300422: MineColor2@128x128_211
-    21300424: MineColor2@128x128_212
-    21300426: MineColor2@128x128_213
-    21300428: MineColor2@128x128_214
-    21300430: MineColor2@128x128_215
-    21300432: MineColor2@128x128_216
-    21300434: MineColor2@128x128_217
-    21300436: MineColor2@128x128_218
-    21300438: MineColor2@128x128_219
-    21300440: MineColor2@128x128_220
-    21300442: MineColor2@128x128_221
-    21300444: MineColor2@128x128_222
-    21300446: MineColor2@128x128_223
-    21300448: MineColor2@128x128_224
-    21300450: MineColor2@128x128_225
-    21300452: MineColor2@128x128_226
-    21300454: MineColor2@128x128_227
-    21300456: MineColor2@128x128_228
-    21300458: MineColor2@128x128_229
-    21300460: MineColor2@128x128_230
-    21300462: MineColor2@128x128_231
-    21300464: MineColor2@128x128_232
-    21300466: MineColor2@128x128_233
-    21300468: MineColor2@128x128_234
-    21300470: MineColor2@128x128_235
-    21300472: MineColor2@128x128_236
-    21300474: MineColor2@128x128_237
-    21300476: MineColor2@128x128_238
-    21300478: MineColor2@128x128_239
-    21300480: MineColor2@128x128_240
-    21300482: MineColor2@128x128_241
-    21300484: MineColor2@128x128_242
-    21300486: MineColor2@128x128_243
-    21300488: MineColor2@128x128_244
-    21300490: MineColor2@128x128_245
-    21300492: MineColor2@128x128_246
-    21300494: MineColor2@128x128_247
-    21300496: MineColor2@128x128_248
-    21300498: MineColor2@128x128_249
-    21300500: MineColor2@128x128_250
-    21300502: MineColor2@128x128_251
-    21300504: MineColor2@128x128_252
-    21300506: MineColor2@128x128_253
-    21300508: MineColor2@128x128_254
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: MineColor2@128x128_0
+  - first:
+      213: 21300002
+    second: MineColor2@128x128_1
+  - first:
+      213: 21300004
+    second: MineColor2@128x128_2
+  - first:
+      213: 21300006
+    second: MineColor2@128x128_3
+  - first:
+      213: 21300008
+    second: MineColor2@128x128_4
+  - first:
+      213: 21300010
+    second: MineColor2@128x128_5
+  - first:
+      213: 21300012
+    second: MineColor2@128x128_6
+  - first:
+      213: 21300014
+    second: MineColor2@128x128_7
+  - first:
+      213: 21300016
+    second: MineColor2@128x128_8
+  - first:
+      213: 21300018
+    second: MineColor2@128x128_9
+  - first:
+      213: 21300020
+    second: MineColor2@128x128_10
+  - first:
+      213: 21300022
+    second: MineColor2@128x128_11
+  - first:
+      213: 21300024
+    second: MineColor2@128x128_12
+  - first:
+      213: 21300026
+    second: MineColor2@128x128_13
+  - first:
+      213: 21300028
+    second: MineColor2@128x128_14
+  - first:
+      213: 21300030
+    second: MineColor2@128x128_15
+  - first:
+      213: 21300032
+    second: MineColor2@128x128_16
+  - first:
+      213: 21300034
+    second: MineColor2@128x128_17
+  - first:
+      213: 21300036
+    second: MineColor2@128x128_18
+  - first:
+      213: 21300038
+    second: MineColor2@128x128_19
+  - first:
+      213: 21300040
+    second: MineColor2@128x128_20
+  - first:
+      213: 21300042
+    second: MineColor2@128x128_21
+  - first:
+      213: 21300044
+    second: MineColor2@128x128_22
+  - first:
+      213: 21300046
+    second: MineColor2@128x128_23
+  - first:
+      213: 21300048
+    second: MineColor2@128x128_24
+  - first:
+      213: 21300050
+    second: MineColor2@128x128_25
+  - first:
+      213: 21300052
+    second: MineColor2@128x128_26
+  - first:
+      213: 21300054
+    second: MineColor2@128x128_27
+  - first:
+      213: 21300056
+    second: MineColor2@128x128_28
+  - first:
+      213: 21300058
+    second: MineColor2@128x128_29
+  - first:
+      213: 21300060
+    second: MineColor2@128x128_30
+  - first:
+      213: 21300062
+    second: MineColor2@128x128_31
+  - first:
+      213: 21300064
+    second: MineColor2@128x128_32
+  - first:
+      213: 21300066
+    second: MineColor2@128x128_33
+  - first:
+      213: 21300068
+    second: MineColor2@128x128_34
+  - first:
+      213: 21300070
+    second: MineColor2@128x128_35
+  - first:
+      213: 21300072
+    second: MineColor2@128x128_36
+  - first:
+      213: 21300074
+    second: MineColor2@128x128_37
+  - first:
+      213: 21300076
+    second: MineColor2@128x128_38
+  - first:
+      213: 21300078
+    second: MineColor2@128x128_39
+  - first:
+      213: 21300080
+    second: MineColor2@128x128_40
+  - first:
+      213: 21300082
+    second: MineColor2@128x128_41
+  - first:
+      213: 21300084
+    second: MineColor2@128x128_42
+  - first:
+      213: 21300086
+    second: MineColor2@128x128_43
+  - first:
+      213: 21300088
+    second: MineColor2@128x128_44
+  - first:
+      213: 21300090
+    second: MineColor2@128x128_45
+  - first:
+      213: 21300092
+    second: MineColor2@128x128_46
+  - first:
+      213: 21300094
+    second: MineColor2@128x128_47
+  - first:
+      213: 21300096
+    second: MineColor2@128x128_48
+  - first:
+      213: 21300098
+    second: MineColor2@128x128_49
+  - first:
+      213: 21300100
+    second: MineColor2@128x128_50
+  - first:
+      213: 21300102
+    second: MineColor2@128x128_51
+  - first:
+      213: 21300104
+    second: MineColor2@128x128_52
+  - first:
+      213: 21300106
+    second: MineColor2@128x128_53
+  - first:
+      213: 21300108
+    second: MineColor2@128x128_54
+  - first:
+      213: 21300110
+    second: MineColor2@128x128_55
+  - first:
+      213: 21300112
+    second: MineColor2@128x128_56
+  - first:
+      213: 21300114
+    second: MineColor2@128x128_57
+  - first:
+      213: 21300116
+    second: MineColor2@128x128_58
+  - first:
+      213: 21300118
+    second: MineColor2@128x128_59
+  - first:
+      213: 21300120
+    second: MineColor2@128x128_60
+  - first:
+      213: 21300122
+    second: MineColor2@128x128_61
+  - first:
+      213: 21300124
+    second: MineColor2@128x128_62
+  - first:
+      213: 21300126
+    second: MineColor2@128x128_63
+  - first:
+      213: 21300128
+    second: MineColor2@128x128_64
+  - first:
+      213: 21300130
+    second: MineColor2@128x128_65
+  - first:
+      213: 21300132
+    second: MineColor2@128x128_66
+  - first:
+      213: 21300134
+    second: MineColor2@128x128_67
+  - first:
+      213: 21300136
+    second: MineColor2@128x128_68
+  - first:
+      213: 21300138
+    second: MineColor2@128x128_69
+  - first:
+      213: 21300140
+    second: MineColor2@128x128_70
+  - first:
+      213: 21300142
+    second: MineColor2@128x128_71
+  - first:
+      213: 21300144
+    second: MineColor2@128x128_72
+  - first:
+      213: 21300146
+    second: MineColor2@128x128_73
+  - first:
+      213: 21300148
+    second: MineColor2@128x128_74
+  - first:
+      213: 21300150
+    second: MineColor2@128x128_75
+  - first:
+      213: 21300152
+    second: MineColor2@128x128_76
+  - first:
+      213: 21300154
+    second: MineColor2@128x128_77
+  - first:
+      213: 21300156
+    second: MineColor2@128x128_78
+  - first:
+      213: 21300158
+    second: MineColor2@128x128_79
+  - first:
+      213: 21300160
+    second: MineColor2@128x128_80
+  - first:
+      213: 21300162
+    second: MineColor2@128x128_81
+  - first:
+      213: 21300164
+    second: MineColor2@128x128_82
+  - first:
+      213: 21300166
+    second: MineColor2@128x128_83
+  - first:
+      213: 21300168
+    second: MineColor2@128x128_84
+  - first:
+      213: 21300170
+    second: MineColor2@128x128_85
+  - first:
+      213: 21300172
+    second: MineColor2@128x128_86
+  - first:
+      213: 21300174
+    second: MineColor2@128x128_87
+  - first:
+      213: 21300176
+    second: MineColor2@128x128_88
+  - first:
+      213: 21300178
+    second: MineColor2@128x128_89
+  - first:
+      213: 21300180
+    second: MineColor2@128x128_90
+  - first:
+      213: 21300182
+    second: MineColor2@128x128_91
+  - first:
+      213: 21300184
+    second: MineColor2@128x128_92
+  - first:
+      213: 21300186
+    second: MineColor2@128x128_93
+  - first:
+      213: 21300188
+    second: MineColor2@128x128_94
+  - first:
+      213: 21300190
+    second: MineColor2@128x128_95
+  - first:
+      213: 21300192
+    second: MineColor2@128x128_96
+  - first:
+      213: 21300194
+    second: MineColor2@128x128_97
+  - first:
+      213: 21300196
+    second: MineColor2@128x128_98
+  - first:
+      213: 21300198
+    second: MineColor2@128x128_99
+  - first:
+      213: 21300200
+    second: MineColor2@128x128_100
+  - first:
+      213: 21300202
+    second: MineColor2@128x128_101
+  - first:
+      213: 21300204
+    second: MineColor2@128x128_102
+  - first:
+      213: 21300206
+    second: MineColor2@128x128_103
+  - first:
+      213: 21300208
+    second: MineColor2@128x128_104
+  - first:
+      213: 21300210
+    second: MineColor2@128x128_105
+  - first:
+      213: 21300212
+    second: MineColor2@128x128_106
+  - first:
+      213: 21300214
+    second: MineColor2@128x128_107
+  - first:
+      213: 21300216
+    second: MineColor2@128x128_108
+  - first:
+      213: 21300218
+    second: MineColor2@128x128_109
+  - first:
+      213: 21300220
+    second: MineColor2@128x128_110
+  - first:
+      213: 21300222
+    second: MineColor2@128x128_111
+  - first:
+      213: 21300224
+    second: MineColor2@128x128_112
+  - first:
+      213: 21300226
+    second: MineColor2@128x128_113
+  - first:
+      213: 21300228
+    second: MineColor2@128x128_114
+  - first:
+      213: 21300230
+    second: MineColor2@128x128_115
+  - first:
+      213: 21300232
+    second: MineColor2@128x128_116
+  - first:
+      213: 21300234
+    second: MineColor2@128x128_117
+  - first:
+      213: 21300236
+    second: MineColor2@128x128_118
+  - first:
+      213: 21300238
+    second: MineColor2@128x128_119
+  - first:
+      213: 21300240
+    second: MineColor2@128x128_120
+  - first:
+      213: 21300242
+    second: MineColor2@128x128_121
+  - first:
+      213: 21300244
+    second: MineColor2@128x128_122
+  - first:
+      213: 21300246
+    second: MineColor2@128x128_123
+  - first:
+      213: 21300248
+    second: MineColor2@128x128_124
+  - first:
+      213: 21300250
+    second: MineColor2@128x128_125
+  - first:
+      213: 21300252
+    second: MineColor2@128x128_126
+  - first:
+      213: 21300254
+    second: MineColor2@128x128_127
+  - first:
+      213: 21300256
+    second: MineColor2@128x128_128
+  - first:
+      213: 21300258
+    second: MineColor2@128x128_129
+  - first:
+      213: 21300260
+    second: MineColor2@128x128_130
+  - first:
+      213: 21300262
+    second: MineColor2@128x128_131
+  - first:
+      213: 21300264
+    second: MineColor2@128x128_132
+  - first:
+      213: 21300266
+    second: MineColor2@128x128_133
+  - first:
+      213: 21300268
+    second: MineColor2@128x128_134
+  - first:
+      213: 21300270
+    second: MineColor2@128x128_135
+  - first:
+      213: 21300272
+    second: MineColor2@128x128_136
+  - first:
+      213: 21300274
+    second: MineColor2@128x128_137
+  - first:
+      213: 21300276
+    second: MineColor2@128x128_138
+  - first:
+      213: 21300278
+    second: MineColor2@128x128_139
+  - first:
+      213: 21300280
+    second: MineColor2@128x128_140
+  - first:
+      213: 21300282
+    second: MineColor2@128x128_141
+  - first:
+      213: 21300284
+    second: MineColor2@128x128_142
+  - first:
+      213: 21300286
+    second: MineColor2@128x128_143
+  - first:
+      213: 21300288
+    second: MineColor2@128x128_144
+  - first:
+      213: 21300290
+    second: MineColor2@128x128_145
+  - first:
+      213: 21300292
+    second: MineColor2@128x128_146
+  - first:
+      213: 21300294
+    second: MineColor2@128x128_147
+  - first:
+      213: 21300296
+    second: MineColor2@128x128_148
+  - first:
+      213: 21300298
+    second: MineColor2@128x128_149
+  - first:
+      213: 21300300
+    second: MineColor2@128x128_150
+  - first:
+      213: 21300302
+    second: MineColor2@128x128_151
+  - first:
+      213: 21300304
+    second: MineColor2@128x128_152
+  - first:
+      213: 21300306
+    second: MineColor2@128x128_153
+  - first:
+      213: 21300308
+    second: MineColor2@128x128_154
+  - first:
+      213: 21300310
+    second: MineColor2@128x128_155
+  - first:
+      213: 21300312
+    second: MineColor2@128x128_156
+  - first:
+      213: 21300314
+    second: MineColor2@128x128_157
+  - first:
+      213: 21300316
+    second: MineColor2@128x128_158
+  - first:
+      213: 21300318
+    second: MineColor2@128x128_159
+  - first:
+      213: 21300320
+    second: MineColor2@128x128_160
+  - first:
+      213: 21300322
+    second: MineColor2@128x128_161
+  - first:
+      213: 21300324
+    second: MineColor2@128x128_162
+  - first:
+      213: 21300326
+    second: MineColor2@128x128_163
+  - first:
+      213: 21300328
+    second: MineColor2@128x128_164
+  - first:
+      213: 21300330
+    second: MineColor2@128x128_165
+  - first:
+      213: 21300332
+    second: MineColor2@128x128_166
+  - first:
+      213: 21300334
+    second: MineColor2@128x128_167
+  - first:
+      213: 21300336
+    second: MineColor2@128x128_168
+  - first:
+      213: 21300338
+    second: MineColor2@128x128_169
+  - first:
+      213: 21300340
+    second: MineColor2@128x128_170
+  - first:
+      213: 21300342
+    second: MineColor2@128x128_171
+  - first:
+      213: 21300344
+    second: MineColor2@128x128_172
+  - first:
+      213: 21300346
+    second: MineColor2@128x128_173
+  - first:
+      213: 21300348
+    second: MineColor2@128x128_174
+  - first:
+      213: 21300350
+    second: MineColor2@128x128_175
+  - first:
+      213: 21300352
+    second: MineColor2@128x128_176
+  - first:
+      213: 21300354
+    second: MineColor2@128x128_177
+  - first:
+      213: 21300356
+    second: MineColor2@128x128_178
+  - first:
+      213: 21300358
+    second: MineColor2@128x128_179
+  - first:
+      213: 21300360
+    second: MineColor2@128x128_180
+  - first:
+      213: 21300362
+    second: MineColor2@128x128_181
+  - first:
+      213: 21300364
+    second: MineColor2@128x128_182
+  - first:
+      213: 21300366
+    second: MineColor2@128x128_183
+  - first:
+      213: 21300368
+    second: MineColor2@128x128_184
+  - first:
+      213: 21300370
+    second: MineColor2@128x128_185
+  - first:
+      213: 21300372
+    second: MineColor2@128x128_186
+  - first:
+      213: 21300374
+    second: MineColor2@128x128_187
+  - first:
+      213: 21300376
+    second: MineColor2@128x128_188
+  - first:
+      213: 21300378
+    second: MineColor2@128x128_189
+  - first:
+      213: 21300380
+    second: MineColor2@128x128_190
+  - first:
+      213: 21300382
+    second: MineColor2@128x128_191
+  - first:
+      213: 21300384
+    second: MineColor2@128x128_192
+  - first:
+      213: 21300386
+    second: MineColor2@128x128_193
+  - first:
+      213: 21300388
+    second: MineColor2@128x128_194
+  - first:
+      213: 21300390
+    second: MineColor2@128x128_195
+  - first:
+      213: 21300392
+    second: MineColor2@128x128_196
+  - first:
+      213: 21300394
+    second: MineColor2@128x128_197
+  - first:
+      213: 21300396
+    second: MineColor2@128x128_198
+  - first:
+      213: 21300398
+    second: MineColor2@128x128_199
+  - first:
+      213: 21300400
+    second: MineColor2@128x128_200
+  - first:
+      213: 21300402
+    second: MineColor2@128x128_201
+  - first:
+      213: 21300404
+    second: MineColor2@128x128_202
+  - first:
+      213: 21300406
+    second: MineColor2@128x128_203
+  - first:
+      213: 21300408
+    second: MineColor2@128x128_204
+  - first:
+      213: 21300410
+    second: MineColor2@128x128_205
+  - first:
+      213: 21300412
+    second: MineColor2@128x128_206
+  - first:
+      213: 21300414
+    second: MineColor2@128x128_207
+  - first:
+      213: 21300416
+    second: MineColor2@128x128_208
+  - first:
+      213: 21300418
+    second: MineColor2@128x128_209
+  - first:
+      213: 21300420
+    second: MineColor2@128x128_210
+  - first:
+      213: 21300422
+    second: MineColor2@128x128_211
+  - first:
+      213: 21300424
+    second: MineColor2@128x128_212
+  - first:
+      213: 21300426
+    second: MineColor2@128x128_213
+  - first:
+      213: 21300428
+    second: MineColor2@128x128_214
+  - first:
+      213: 21300430
+    second: MineColor2@128x128_215
+  - first:
+      213: 21300432
+    second: MineColor2@128x128_216
+  - first:
+      213: 21300434
+    second: MineColor2@128x128_217
+  - first:
+      213: 21300436
+    second: MineColor2@128x128_218
+  - first:
+      213: 21300438
+    second: MineColor2@128x128_219
+  - first:
+      213: 21300440
+    second: MineColor2@128x128_220
+  - first:
+      213: 21300442
+    second: MineColor2@128x128_221
+  - first:
+      213: 21300444
+    second: MineColor2@128x128_222
+  - first:
+      213: 21300446
+    second: MineColor2@128x128_223
+  - first:
+      213: 21300448
+    second: MineColor2@128x128_224
+  - first:
+      213: 21300450
+    second: MineColor2@128x128_225
+  - first:
+      213: 21300452
+    second: MineColor2@128x128_226
+  - first:
+      213: 21300454
+    second: MineColor2@128x128_227
+  - first:
+      213: 21300456
+    second: MineColor2@128x128_228
+  - first:
+      213: 21300458
+    second: MineColor2@128x128_229
+  - first:
+      213: 21300460
+    second: MineColor2@128x128_230
+  - first:
+      213: 21300462
+    second: MineColor2@128x128_231
+  - first:
+      213: 21300464
+    second: MineColor2@128x128_232
+  - first:
+      213: 21300466
+    second: MineColor2@128x128_233
+  - first:
+      213: 21300468
+    second: MineColor2@128x128_234
+  - first:
+      213: 21300470
+    second: MineColor2@128x128_235
+  - first:
+      213: 21300472
+    second: MineColor2@128x128_236
+  - first:
+      213: 21300474
+    second: MineColor2@128x128_237
+  - first:
+      213: 21300476
+    second: MineColor2@128x128_238
+  - first:
+      213: 21300478
+    second: MineColor2@128x128_239
+  - first:
+      213: 21300480
+    second: MineColor2@128x128_240
+  - first:
+      213: 21300482
+    second: MineColor2@128x128_241
+  - first:
+      213: 21300484
+    second: MineColor2@128x128_242
+  - first:
+      213: 21300486
+    second: MineColor2@128x128_243
+  - first:
+      213: 21300488
+    second: MineColor2@128x128_244
+  - first:
+      213: 21300490
+    second: MineColor2@128x128_245
+  - first:
+      213: 21300492
+    second: MineColor2@128x128_246
+  - first:
+      213: 21300494
+    second: MineColor2@128x128_247
+  - first:
+      213: 21300496
+    second: MineColor2@128x128_248
+  - first:
+      213: 21300498
+    second: MineColor2@128x128_249
+  - first:
+      213: 21300500
+    second: MineColor2@128x128_250
+  - first:
+      213: 21300502
+    second: MineColor2@128x128_251
+  - first:
+      213: 21300504
+    second: MineColor2@128x128_252
+  - first:
+      213: 21300506
+    second: MineColor2@128x128_253
+  - first:
+      213: 21300508
+    second: MineColor2@128x128_254
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -278,6 +786,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -288,7 +798,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -300,18 +810,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 32
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -320,7 +833,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -329,7 +844,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -338,6 +855,18 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -355,6 +884,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2e6cb181330e4c542baf326e4cdd0bce
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_1
       rect:
@@ -369,6 +905,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83190dcd0e237a84d8ceb74050c2e64a
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_2
       rect:
@@ -383,6 +926,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7842923d7011100479533145886149da
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_3
       rect:
@@ -397,6 +947,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23fcfbeaabcdf3c4693328af832b1743
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_4
       rect:
@@ -411,6 +968,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 920a371d2aca05c4ba85a7651440d36d
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_5
       rect:
@@ -425,6 +989,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c0637c7caba20ff428b9d5b74ecce389
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_6
       rect:
@@ -439,6 +1010,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2812a48dd8b86014e9a77a7c62679d43
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_7
       rect:
@@ -453,6 +1031,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d109e84d6a3022641b975f78d86a136c
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_8
       rect:
@@ -467,6 +1052,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b8996d3ada9d837459f37a344881a204
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_9
       rect:
@@ -481,6 +1073,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 70f014991cade5049bada978914143c7
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_10
       rect:
@@ -495,6 +1094,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d765799571a8619428c6a57657e496d6
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_11
       rect:
@@ -509,6 +1115,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 93db68cd751cf2748a44fe67ece6861a
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_12
       rect:
@@ -523,6 +1136,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3fa502c47d1cdb547ad20371ea645edb
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_13
       rect:
@@ -537,6 +1157,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 92113a99d8a7f7742a091a300ba8610a
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_14
       rect:
@@ -551,6 +1178,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d8655ea62eea2a845a2ea730f2742f76
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_15
       rect:
@@ -565,6 +1199,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1f4e6d55ee54c5749b94ee8693443c53
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_16
       rect:
@@ -579,6 +1220,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 68459fe024c5673499de5242b4b8a118
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_17
       rect:
@@ -593,6 +1241,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e352449e35fc08149afd4a1fbb0f4b59
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_18
       rect:
@@ -607,6 +1262,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8766e2c4e53cb01499ebd75ff6a2f658
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_19
       rect:
@@ -621,6 +1283,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 692edcca1206ad944ba73229286ec780
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_20
       rect:
@@ -635,6 +1304,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: efcb71193fc6d044b9126a5bfef05478
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_21
       rect:
@@ -649,6 +1325,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 874c7072f45b87a48adf8a36fbe92539
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_22
       rect:
@@ -663,6 +1346,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f8097e7dcf1e26e42aa755e4407f16f9
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_23
       rect:
@@ -677,6 +1367,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d6b4cf17e5a431e48a2b103858dd24ea
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_24
       rect:
@@ -691,6 +1388,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8b337b445b046544ba3c8c48fc28f46
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_25
       rect:
@@ -705,6 +1409,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6e4b9c168b385ba43a2a1e1351b5a0c6
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_26
       rect:
@@ -719,6 +1430,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7edf18192b266874bbda18957748c979
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_27
       rect:
@@ -733,6 +1451,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 95e635784a54cea428a7e2e519353a48
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_28
       rect:
@@ -747,6 +1472,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 209d5f32e0d01db4cbf5c02855801d54
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_29
       rect:
@@ -761,6 +1493,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7aed5a1ce105bfe489f79bacdfe5d674
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_30
       rect:
@@ -775,6 +1514,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8afdf6d6a3e54344ca27f26e4a117d93
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_31
       rect:
@@ -789,6 +1535,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4510f453f6af971408d8ff0674f0b8e2
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_32
       rect:
@@ -803,6 +1556,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d62b427336c0fc74abcf801c3ce8a986
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_33
       rect:
@@ -817,6 +1577,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f8fa6ee1cac6e1a4eb0f1c86a6ffbb73
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_34
       rect:
@@ -831,6 +1598,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f0babc4f0a7284447bb8fea6174ab75b
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_35
       rect:
@@ -845,6 +1619,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9236c3e94686a7f4ab9a390d426e648b
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_36
       rect:
@@ -859,6 +1640,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2a3abc8fab578fb4db0655c860cbcd1e
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_37
       rect:
@@ -873,6 +1661,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b2cd503b0c5651f4088e015d02e6bb30
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_38
       rect:
@@ -887,6 +1682,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 20aa2823a5854c644a4f4c355ebfdfdc
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_39
       rect:
@@ -901,6 +1703,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c0b5c3357c351714ea693d6ea8e4f541
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_40
       rect:
@@ -915,6 +1724,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9f6bbf226cfcc1c499e1c7fe7cc81c99
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_41
       rect:
@@ -929,6 +1745,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5508e82552c87a468cc038cef44ba34
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_42
       rect:
@@ -943,6 +1766,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 25dd35e264c219e4aba0d8bf1bb93007
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_43
       rect:
@@ -957,6 +1787,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b86c0394137acb84e97be278cf382838
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_44
       rect:
@@ -971,6 +1808,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: daa62a929c0846f4084208435bd8ef05
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_45
       rect:
@@ -985,6 +1829,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3933684c346caa448906a325cb2e7661
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_46
       rect:
@@ -999,6 +1850,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 76e081406984d6e448c91b9f6e526b26
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_47
       rect:
@@ -1013,6 +1871,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 091c831ae764ead47a869b6f0a25bf64
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_48
       rect:
@@ -1027,6 +1892,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ba11de1219c9c314e874902e3deddf95
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_49
       rect:
@@ -1041,6 +1913,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 40e38ec4294c45c4e97c87b720ce7ef1
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_50
       rect:
@@ -1055,6 +1934,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2d4d9a4eb1d119342af6739b27d740aa
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_51
       rect:
@@ -1069,6 +1955,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7bfbe54892033354d890328a68cf22f3
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_52
       rect:
@@ -1083,6 +1976,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9545564c619513144adbcf724e759d42
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_53
       rect:
@@ -1097,6 +1997,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f91ae2e14170fae42bea1fbbcd63dfcf
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_54
       rect:
@@ -1111,6 +2018,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 026f391169149c747b94c68eb8fd88b7
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_55
       rect:
@@ -1125,6 +2039,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4f8b7d1548d914f4eb30d1e205f38735
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_56
       rect:
@@ -1139,6 +2060,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b214c4d3c97c45b4aacdce88d616fb21
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_57
       rect:
@@ -1153,6 +2081,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 050342c3ceec1554d96fa4e9989f264d
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_58
       rect:
@@ -1167,6 +2102,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9f941385c7c2ad948a5e2593b99ac790
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_59
       rect:
@@ -1181,6 +2123,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 68ebb425fc6f9f54097877dc37ffc91b
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_60
       rect:
@@ -1195,6 +2144,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2e33810aece2113408b6a86fa3bfe4e4
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_61
       rect:
@@ -1209,6 +2165,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a8faf3304d7dd2446bf2aa83a433d246
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_62
       rect:
@@ -1223,6 +2186,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e54a00302db04c3498ffe52d907b46f3
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_63
       rect:
@@ -1237,6 +2207,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1b600702bb6e2814cb7fab2641cea802
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_64
       rect:
@@ -1251,6 +2228,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e96b1280d06152345a11673765f6d52a
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_65
       rect:
@@ -1265,6 +2249,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4b87e68cc7185bf46a43e0956045bcf6
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_66
       rect:
@@ -1279,6 +2270,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2d46ee100422494aa814bb5cf220c23
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_67
       rect:
@@ -1293,6 +2291,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e231f5ebdf2b090459a02c13a66a76cf
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_68
       rect:
@@ -1307,6 +2312,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 37a2ff022cd7d28419d98a8b8718533c
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_69
       rect:
@@ -1321,6 +2333,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9032d1a2d34f7a74b9106f7c6fb1d050
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_70
       rect:
@@ -1335,6 +2354,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2ab461641a1b0d2459cf3924bf201886
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_71
       rect:
@@ -1349,6 +2375,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8df7e71882a49ba479f42b192bc70b12
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_72
       rect:
@@ -1363,6 +2396,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 92f587a5021c053458258337bce75db2
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_73
       rect:
@@ -1377,6 +2417,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2f9df66d7986f6a40aae615b1a454d1c
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_74
       rect:
@@ -1391,6 +2438,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1467b56ca1d93144a8fd19008949150c
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_75
       rect:
@@ -1405,6 +2459,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4e33bf7732d84bc4293af90624a9f50b
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_76
       rect:
@@ -1419,6 +2480,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aab450156fe7cf44380fc2283f3717e8
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_77
       rect:
@@ -1433,6 +2501,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8878cd33e50f334468aeffe56b68bfd5
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_78
       rect:
@@ -1447,6 +2522,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8951636f8b852a14c993e4ea0d920fcf
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_79
       rect:
@@ -1461,6 +2543,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84fc3a04b9b7d8a458d6a0c803c95cb3
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_80
       rect:
@@ -1475,6 +2564,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05ddccac408651f4cb4ae34a4060ac01
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_81
       rect:
@@ -1489,6 +2585,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d57c9614d2c15ca489ac66fc5bf62e99
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_82
       rect:
@@ -1503,6 +2606,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 32619ab1b0a1a6d498eccfe3cd5b0053
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_83
       rect:
@@ -1517,6 +2627,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3cf72be129df79b4da5438fdc71c08b9
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_84
       rect:
@@ -1531,6 +2648,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2a29d0d1edc447428bf58eff527de7e
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_85
       rect:
@@ -1545,6 +2669,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2e9a3bc940915c4fa0352a6817d34ba
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_86
       rect:
@@ -1559,6 +2690,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9d67c246af2cb1441810df28ec3fe463
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_87
       rect:
@@ -1573,6 +2711,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 77eb136f468c3324ea16a976690f43df
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_88
       rect:
@@ -1587,6 +2732,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9fa5b1e0ac06dc9458be6116af323e25
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_89
       rect:
@@ -1601,6 +2753,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c9ffcf8d5f4df514ab46f3d75a36e229
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_90
       rect:
@@ -1615,6 +2774,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 39feff5662024964688b15039586b9ad
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_91
       rect:
@@ -1629,6 +2795,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cf2c6f903d3ca6343ac0486d7b761692
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_92
       rect:
@@ -1643,6 +2816,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dc48b8b701570cf4c8453c923b445ad9
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_93
       rect:
@@ -1657,6 +2837,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2c73e8b3beb1fae4f844f277fcc36f03
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_94
       rect:
@@ -1671,6 +2858,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d1b2bf9d888fbc3459ed022e93f95705
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_95
       rect:
@@ -1685,6 +2879,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b71e2273e1f8b1540b4c2d9aa8de0363
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_96
       rect:
@@ -1699,6 +2900,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0a021e81add735e418353e6446b02aca
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_97
       rect:
@@ -1713,6 +2921,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ec6c74d34e0750e4fbbbc3b99112bc24
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_98
       rect:
@@ -1727,6 +2942,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0b726f250d7a1e945b0003a4a05d7367
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_99
       rect:
@@ -1741,6 +2963,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1e3119b17a3b6d54fa94c37ff82fc017
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_100
       rect:
@@ -1755,6 +2984,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b2f8205c20b3e18439659b373448ef7d
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_101
       rect:
@@ -1769,6 +3005,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2df4b5d814b1d8744ad0807680ed56d2
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_102
       rect:
@@ -1783,6 +3026,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 60da0be9268e3df49ada449d14d3f289
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_103
       rect:
@@ -1797,6 +3047,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84f0fd20ba1200c4494d205d3b25794a
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_104
       rect:
@@ -1811,6 +3068,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e1316c6ddcb9cbd4e86063e9104c6619
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_105
       rect:
@@ -1825,6 +3089,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d41ae26840509c34399f86588454f65e
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_106
       rect:
@@ -1839,6 +3110,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 35e897129cae21c4ba44f763e2f47a8e
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_107
       rect:
@@ -1853,6 +3131,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 007af65e003377b4f94488b53fb7c211
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_108
       rect:
@@ -1867,6 +3152,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 94a771ecddec0c442905fcd17fe13731
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_109
       rect:
@@ -1881,6 +3173,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eddeefd05a24bf2468aba58a7f2c7d52
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_110
       rect:
@@ -1895,6 +3194,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f9e2cdca0e5ec8f4c913375248387e11
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_111
       rect:
@@ -1909,6 +3215,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cf511015e9db6b04d91e9fe5a12acfff
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_112
       rect:
@@ -1923,6 +3236,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44b995a8448402a4e9b9aaba2455123a
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_113
       rect:
@@ -1937,6 +3257,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5b3dc096148b2c54cbff2bbef5ff52a4
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_114
       rect:
@@ -1951,6 +3278,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 87e85b9a2435bc9469a77db8f655046a
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_115
       rect:
@@ -1965,6 +3299,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9810ed3ce76757b4d8b5f79a7a1061ee
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_116
       rect:
@@ -1979,6 +3320,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0459eef8db85a6d4b8d48706950652c4
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_117
       rect:
@@ -1993,6 +3341,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c85b593430a55354a99f18805f0c39c5
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_118
       rect:
@@ -2007,6 +3362,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e750b92a21d1b8740862220aa581bcf7
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_119
       rect:
@@ -2021,6 +3383,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1464da0fff84ae041b67e1344dcf6853
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_120
       rect:
@@ -2035,6 +3404,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b7ad2f8de554b9849ba67e70a1b794f8
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_121
       rect:
@@ -2049,6 +3425,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: da96e5ebde62c6943b568e6c10208094
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_122
       rect:
@@ -2063,6 +3446,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6d3c583074548154aa517b7bf8addf6d
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_123
       rect:
@@ -2077,6 +3467,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 10e4421b2149ca1429d6322d8344662b
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_124
       rect:
@@ -2091,6 +3488,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9f42f80d61da1fc409aafa94483ead2e
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_125
       rect:
@@ -2105,6 +3509,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 711b20dacb373ab4c9cd25e10bede959
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_126
       rect:
@@ -2119,6 +3530,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 78e7351dbf05a0046b955c93353b0173
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_127
       rect:
@@ -2133,6 +3551,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 96a63621d329b7f49abc86db73797ee1
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_128
       rect:
@@ -2147,6 +3572,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a93467bcc57225543b7e4377da463ae6
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_129
       rect:
@@ -2161,6 +3593,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8630cc8b1752ec34982d62f9e38f1d85
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_130
       rect:
@@ -2175,6 +3614,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 338639f2620eaf746be1efdd93bbcd5f
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_131
       rect:
@@ -2189,6 +3635,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d73306f64fc149d4f8dbe115be5dfabc
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_132
       rect:
@@ -2203,6 +3656,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 28d3f14432bf93c4d8fbd3576d5c1559
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_133
       rect:
@@ -2217,6 +3677,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6112f23fc851a26409c05e5865652cc9
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_134
       rect:
@@ -2231,6 +3698,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0f9f7f8d47989f44bb6c2f6c2ae1a610
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_135
       rect:
@@ -2245,6 +3719,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b254ad7a284d6aa42a1d0cf9698d6e37
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_136
       rect:
@@ -2259,6 +3740,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5c1887ea77638bd4fb1b034e9ca0c37f
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_137
       rect:
@@ -2273,6 +3761,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 18b4551478026b34483e5376b2ef385e
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_138
       rect:
@@ -2287,6 +3782,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 635dcd89e657ea24ea73eef3dc5329d0
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_139
       rect:
@@ -2301,6 +3803,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e0e99af5d88e029429909ff1bb277cf6
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_140
       rect:
@@ -2315,6 +3824,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 11f541e0646e1ed489651f7eb321fec8
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_141
       rect:
@@ -2329,6 +3845,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 826cea750999096438556625b0daafa3
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_142
       rect:
@@ -2343,6 +3866,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6573ef7c2d73a494994fabde1dc9f120
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_143
       rect:
@@ -2357,6 +3887,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c06cebaed1403114d94d8bc99aeaaf41
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_144
       rect:
@@ -2371,6 +3908,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c96a8e5cfddcb1541add4ac04e5389d8
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_145
       rect:
@@ -2385,6 +3929,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ede7aca8291817e418d8f293e3bc4b5d
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_146
       rect:
@@ -2399,6 +3950,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5f8d78de01b08084f97c747ad9cf61ca
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_147
       rect:
@@ -2413,6 +3971,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fd09dfd2b792b084cbaf728fa364df0a
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_148
       rect:
@@ -2427,6 +3992,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8d955c4e61b64d249abce4e66bd9567a
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_149
       rect:
@@ -2441,6 +4013,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 755ce895f7e572b41944ecfe307a8141
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_150
       rect:
@@ -2455,6 +4034,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b21ed4a265bf84a449b4a2eef11859dc
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_151
       rect:
@@ -2469,6 +4055,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6cb32064a93ca6a48876effbb6c92699
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_152
       rect:
@@ -2483,6 +4076,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fb0a221ed09bba9428e2599f10a2ee41
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_153
       rect:
@@ -2497,6 +4097,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 13491d17cb594d840aa0a71821d77bed
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_154
       rect:
@@ -2511,6 +4118,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0e2dedd49803ebd46929c1f3354cd632
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_155
       rect:
@@ -2525,6 +4139,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cfcdc4aaa8620d8489c20cefee70372e
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_156
       rect:
@@ -2539,6 +4160,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7f3c65024fb002d4ba88daa88b211f66
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_157
       rect:
@@ -2553,6 +4181,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5adb190ef9332014ca3daf66b5cd34a6
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_158
       rect:
@@ -2567,6 +4202,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 77df9fc5581525a4cb5569961b11dbd9
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_159
       rect:
@@ -2581,6 +4223,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bc6a84d954ee4574db9f313c41913245
+      internalID: 21300318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_160
       rect:
@@ -2595,6 +4244,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb3c9a52b683d56429e54681b5c11124
+      internalID: 21300320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_161
       rect:
@@ -2609,6 +4265,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7d0c970df33e3ce47b38cd6b18fe296b
+      internalID: 21300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_162
       rect:
@@ -2623,6 +4286,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b9137581baa8c134bba52c9ccd62a32f
+      internalID: 21300324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_163
       rect:
@@ -2637,6 +4307,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8bc629bed046794abed0ae1123c059b
+      internalID: 21300326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_164
       rect:
@@ -2651,6 +4328,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42f8e940c5e74da4a8ee7c48ff0a268f
+      internalID: 21300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_165
       rect:
@@ -2665,6 +4349,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 93805770e777fbe4190d0124462172ff
+      internalID: 21300330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_166
       rect:
@@ -2679,6 +4370,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82ad4a369d084e54d8dfb83c22c9c517
+      internalID: 21300332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_167
       rect:
@@ -2693,6 +4391,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 18f1dc9b4ad3d5b4a80de43151f3d783
+      internalID: 21300334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_168
       rect:
@@ -2707,6 +4412,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 760de12bf2046ec4e81a9fd42ac97027
+      internalID: 21300336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_169
       rect:
@@ -2721,6 +4433,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c283d0f7fa959ea49a2920a51f7bddd6
+      internalID: 21300338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_170
       rect:
@@ -2735,6 +4454,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bcaa800930f38ee47a2d4cbc07817ae9
+      internalID: 21300340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_171
       rect:
@@ -2749,6 +4475,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 61e7a8313c518b24d83dc57a683318a0
+      internalID: 21300342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_172
       rect:
@@ -2763,6 +4496,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2c73c63df63b3034e8a83fdecf686b01
+      internalID: 21300344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_173
       rect:
@@ -2777,6 +4517,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 53470823421ad7249b96a23fcc5384f3
+      internalID: 21300346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_174
       rect:
@@ -2791,6 +4538,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a49d950e9bf09d146aac609a73f87608
+      internalID: 21300348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_175
       rect:
@@ -2805,6 +4559,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d828df5a701856a4c9e5034e7d260276
+      internalID: 21300350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_176
       rect:
@@ -2819,6 +4580,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6ea36995215380e44a6ae91c84897189
+      internalID: 21300352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_177
       rect:
@@ -2833,6 +4601,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 92400106c98d7bf4291afd4edae01b27
+      internalID: 21300354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_178
       rect:
@@ -2847,6 +4622,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7c3ca55a546930b4f8b31cc63ee0ef6d
+      internalID: 21300356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_179
       rect:
@@ -2861,6 +4643,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1ceace81e19f5f34db1d7e9a2d7b2ac0
+      internalID: 21300358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_180
       rect:
@@ -2875,6 +4664,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65bb370945067b54683fa0717785d824
+      internalID: 21300360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_181
       rect:
@@ -2889,6 +4685,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9efe4a4f6aa9b204591d0b13dc646b92
+      internalID: 21300362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_182
       rect:
@@ -2903,6 +4706,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b515a9164b31b6f49a892f72dfe71a77
+      internalID: 21300364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_183
       rect:
@@ -2917,6 +4727,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b2b6fb5e8a03f54091ebdbea66f1a53
+      internalID: 21300366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_184
       rect:
@@ -2931,6 +4748,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6ed9b654d79fb3c4ba591c0ad434fe84
+      internalID: 21300368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_185
       rect:
@@ -2945,6 +4769,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65e6d5d9c7da8d04bbf56b6cec4c7ec1
+      internalID: 21300370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_186
       rect:
@@ -2959,6 +4790,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 299f129a760fc7947936a40409a10c69
+      internalID: 21300372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_187
       rect:
@@ -2973,6 +4811,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f521566b2a745fd4aae2653eec053428
+      internalID: 21300374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_188
       rect:
@@ -2987,6 +4832,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 18aada031a26229408a4c20b8adf6da8
+      internalID: 21300376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_189
       rect:
@@ -3001,6 +4853,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c40ccb64fd7e3bb4f9aaae99b0fb5137
+      internalID: 21300378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_190
       rect:
@@ -3015,6 +4874,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 262668dd7abafef4683400559d791e3e
+      internalID: 21300380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_191
       rect:
@@ -3029,6 +4895,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ec2aa9a0fc6eabd4081c426203ded121
+      internalID: 21300382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_192
       rect:
@@ -3043,6 +4916,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 532f8d4afbe893747ab276336c6541ff
+      internalID: 21300384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_193
       rect:
@@ -3057,6 +4937,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f5e6f521145ac6642be51f8454640027
+      internalID: 21300386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_194
       rect:
@@ -3071,6 +4958,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8c62ce3d9d41af74d958f7182285d540
+      internalID: 21300388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_195
       rect:
@@ -3085,6 +4979,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 567eab023e61b4e448758574fc7de680
+      internalID: 21300390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_196
       rect:
@@ -3099,6 +5000,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: edffb3ae007e76e47a53cb258c15920f
+      internalID: 21300392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_197
       rect:
@@ -3113,6 +5021,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 81c2ee86e51d6be46a8e93c4a8745e1c
+      internalID: 21300394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_198
       rect:
@@ -3127,6 +5042,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: de3df6b5a5d5a9d4fb60ea4122383b40
+      internalID: 21300396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_199
       rect:
@@ -3141,6 +5063,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aca0105c36fcb15469c97e206c107624
+      internalID: 21300398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_200
       rect:
@@ -3155,6 +5084,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 738ac1630e452844587b8a5f3fde9e7a
+      internalID: 21300400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_201
       rect:
@@ -3169,6 +5105,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b75c3d8e2484db49b86aca133045318
+      internalID: 21300402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_202
       rect:
@@ -3183,6 +5126,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fd24645da5e0d114aab694e3a1ddb4ab
+      internalID: 21300404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_203
       rect:
@@ -3197,6 +5147,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2ded402ab22d5a44beee7587042efa6
+      internalID: 21300406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_204
       rect:
@@ -3211,6 +5168,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9b784dd575515af4e835003621e2c118
+      internalID: 21300408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_205
       rect:
@@ -3225,6 +5189,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 99a85f8f31ab8024cb3c3ad4064f6ffd
+      internalID: 21300410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_206
       rect:
@@ -3239,6 +5210,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7cfc242589496ce4883a0aff2b4265be
+      internalID: 21300412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_207
       rect:
@@ -3253,6 +5231,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4c08536227fe70d42b23907d9a13ab86
+      internalID: 21300414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_208
       rect:
@@ -3267,6 +5252,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5d4b09ac337540541b8989c466a42ead
+      internalID: 21300416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_209
       rect:
@@ -3281,6 +5273,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 19fff80241be3514a8164229d960c5a9
+      internalID: 21300418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_210
       rect:
@@ -3295,6 +5294,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c7b11940fa3b0894aa29d9b8fb570020
+      internalID: 21300420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_211
       rect:
@@ -3309,6 +5315,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 483ebd0f86309714da96ebd71bb5d734
+      internalID: 21300422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_212
       rect:
@@ -3323,6 +5336,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 761d35398ed160344974bc372bfa00e8
+      internalID: 21300424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_213
       rect:
@@ -3337,6 +5357,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 777d760697e8fc74085fce6b143c77b9
+      internalID: 21300426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_214
       rect:
@@ -3351,6 +5378,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 038a4a27be4f7b748bc3866500aa16b1
+      internalID: 21300428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_215
       rect:
@@ -3365,6 +5399,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 41dae630a79863545b7b89418d0fc452
+      internalID: 21300430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_216
       rect:
@@ -3379,6 +5420,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5c4bde45977b728468b0d7c686e45347
+      internalID: 21300432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_217
       rect:
@@ -3393,6 +5441,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e77242223393f0b4587ffdf00ef545bf
+      internalID: 21300434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_218
       rect:
@@ -3407,6 +5462,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a8c6d548afb6d014a9d8cc35f3350389
+      internalID: 21300436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_219
       rect:
@@ -3421,6 +5483,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5cbe2c9006c9eaf48bd11b434ee92d51
+      internalID: 21300438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_220
       rect:
@@ -3435,6 +5504,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3c5bbd7874d5bb4bb581486206aadd7
+      internalID: 21300440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_221
       rect:
@@ -3449,6 +5525,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 040c2dcd6631e90479fff31b318f0f35
+      internalID: 21300442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_222
       rect:
@@ -3463,6 +5546,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ce4df5a5af8589244acaf788a27d2d21
+      internalID: 21300444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_223
       rect:
@@ -3477,6 +5567,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ce2092ed79ca48944acde3f89a869444
+      internalID: 21300446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_224
       rect:
@@ -3491,6 +5588,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4eedf2be38a658744b6ab0509dc7dcd2
+      internalID: 21300448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_225
       rect:
@@ -3505,6 +5609,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06edf146a32c60d418845948b2454d0f
+      internalID: 21300450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_226
       rect:
@@ -3519,6 +5630,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3e558a9efe55e554f95ec4382b1daccb
+      internalID: 21300452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_227
       rect:
@@ -3533,6 +5651,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a753e2f692407ea4293af15bed066636
+      internalID: 21300454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_228
       rect:
@@ -3547,6 +5672,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b0562d2017cf62c4e9989af3bb3b3af7
+      internalID: 21300456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_229
       rect:
@@ -3561,6 +5693,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ddede96b14709894ca0dc79165ddfe48
+      internalID: 21300458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_230
       rect:
@@ -3575,6 +5714,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fb05bfe7d34979740afb724d8d9dd0ab
+      internalID: 21300460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_231
       rect:
@@ -3589,6 +5735,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 96029d8857e9a4846939889ddbcd2a50
+      internalID: 21300462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_232
       rect:
@@ -3603,6 +5756,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 545aa3f678e92a34ba72acb4e89dba6a
+      internalID: 21300464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_233
       rect:
@@ -3617,6 +5777,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 08243f3642edc8e42ab1c041ff9ce70b
+      internalID: 21300466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_234
       rect:
@@ -3631,6 +5798,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2f24a37469c208a449e6d9aca3b6d48c
+      internalID: 21300468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_235
       rect:
@@ -3645,6 +5819,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5cf73c54115d26c459339cab5d2736c7
+      internalID: 21300470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_236
       rect:
@@ -3659,6 +5840,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f7701584a730ad3489fb679d140377c2
+      internalID: 21300472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_237
       rect:
@@ -3673,6 +5861,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 93f9ef9a428465743bd65f448650b265
+      internalID: 21300474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_238
       rect:
@@ -3687,6 +5882,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 39b453e2a25e169408b858d2a99e6ad5
+      internalID: 21300476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_239
       rect:
@@ -3701,6 +5903,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2b04d4cc1cc935b408632e9970287c35
+      internalID: 21300478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_240
       rect:
@@ -3715,6 +5924,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0536585f7b3d3ad488a470db8176e23b
+      internalID: 21300480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_241
       rect:
@@ -3729,6 +5945,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 14495ac9061f5ca40a6c4ccb979fadf9
+      internalID: 21300482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_242
       rect:
@@ -3743,6 +5966,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a03fe888aea7cb840b4b8b0bbf916952
+      internalID: 21300484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_243
       rect:
@@ -3757,6 +5987,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ff9a66db3b43bd240bb28dada092fcc2
+      internalID: 21300486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_244
       rect:
@@ -3771,6 +6008,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 588c7f848e1b3c64e954a32abbc59a30
+      internalID: 21300488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_245
       rect:
@@ -3785,6 +6029,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d0c4c836e1b500b40b1daf88677825af
+      internalID: 21300490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_246
       rect:
@@ -3799,6 +6050,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44b1e571dc883dd4fb8d7d4154193823
+      internalID: 21300492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_247
       rect:
@@ -3813,6 +6071,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4aec1ddcb5d4b9f419d3d0cf3be09fed
+      internalID: 21300494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_248
       rect:
@@ -3827,6 +6092,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1c03ebe2b038ddc40a6b2e88674add39
+      internalID: 21300496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_249
       rect:
@@ -3841,6 +6113,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c03c36a87f89e264fa8c17ff19b446cf
+      internalID: 21300498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_250
       rect:
@@ -3855,6 +6134,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9ef924ea9f4fb784daa8f4e42e9eab9c
+      internalID: 21300500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_251
       rect:
@@ -3869,6 +6155,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bbe9203e3373dba4e9fa83550b6ea1a5
+      internalID: 21300502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_252
       rect:
@@ -3883,6 +6176,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7e809f1ad5ae3c34c9c824ff7a0391c5
+      internalID: 21300504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_253
       rect:
@@ -3897,6 +6197,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 57e1b32133099c04a8750e5b778d33c8
+      internalID: 21300506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MineColor2@128x128_254
       rect:
@@ -3911,9 +6218,26 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45140664c5cf80e49a34f9f920d64980
+      internalID: 21300508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
