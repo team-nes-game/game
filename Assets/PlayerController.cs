@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     private bool alive;
     private Animator animator;
     private Vector3 movement;
-    private enum State {walk, attack, dead};
+    private enum State {walk, attack_start, attacking, dead};
     private State status;
 
     // Start is called before the first frame update
@@ -28,8 +28,8 @@ public class PlayerController : MonoBehaviour
     	movement = Vector3.zero;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if(Input.GetButtonDown("Attack") && status != State.attack){
-        	status = State.attack;
+        if(Input.GetButtonDown("Attack")){
+        	status = State.attack_start;
         }
     }
 
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
     	}
     	//deal with input here
     	//can probably be a switch
-        if(status == State.attack){
+        if(status == State.attack_start){
         	StartCoroutine(AttackRoutine());
         }
         else if(status == State.walk){
@@ -60,8 +60,8 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator AttackRoutine(){
     	animator.SetBool("Attacking", true);
-    	status = State.attack;
-    	yield return null;
+    	status = State.attacking;
+    	yield return null;   	
     	animator.SetBool("Attacking", false);
     	yield return new WaitForSeconds(.3f);
     	status = State.walk;
