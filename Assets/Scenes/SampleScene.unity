@@ -428,7 +428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   dmg: 1
-  speed: 3
+  speed: 1
   dead: 0
   player: {fileID: 947875667}
   backSpeed: 0.5
@@ -511,7 +511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  health: 2
+  controller: {fileID: 0}
 --- !u!50 &1140757558
 Rigidbody2D:
   serializedVersion: 4
@@ -20760,14 +20760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49b0eb722384f6b47873e4b61ccebd1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  dmg: 0
-  speed: 3
-  player: {fileID: 947875667}
-  speed: 3
-  backSpeed: 1.5
-  maxDist: 10
-  minDist: 1.5
 --- !u!50 &1869574948
 Rigidbody2D:
   serializedVersion: 4

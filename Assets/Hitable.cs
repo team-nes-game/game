@@ -6,7 +6,7 @@ public class Hitable : MonoBehaviour
 {
 	public Animator animator;
 
-	void Start(){
+	public virtual void Start(){
 		animator = GetComponent<Animator>();
 	}
 

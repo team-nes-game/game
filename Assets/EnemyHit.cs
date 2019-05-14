@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class EnemyHit : Hitable
 {
-	public int health;
+	public EnemyParent controller;
+
+	public override void Start(){
+		base.Start();
+		controller = this.gameObject.GetComponent<EnemyParent>();
+	}
 
     public override void OnHit(){
     	//needs animations for this to work
     	//base.OnHit();
-
-    	health -= 1;
-    	if(health <= 0){
-    		this.gameObject.GetComponent<EnemyController>().SetDead();
+    	controller.health -= 1;
+    	if(controller.health <= 0){
+    		controller.SetDead();
     		animator.SetBool("IsDead", true);
     	}
     }
