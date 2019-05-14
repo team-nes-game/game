@@ -66,4 +66,8 @@ public class PlayerController : MonoBehaviour
     	yield return new WaitForSeconds(.3f);
     	status = State.walk;
     }
+
+    public void TakeDmg(int dmg){
+    	cur_health -= dmg;
+    }
 }

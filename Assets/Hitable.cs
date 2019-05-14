@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Hitable : MonoBehaviour
 {
-	private Animator animator;
+	public Animator animator;
 
 	void Start(){
 		animator = GetComponent<Animator>();
 	}
 
-	public void OnHit(){
+	public virtual void OnHit(){
 		animator.SetBool("Hit", true);
 	}
 }

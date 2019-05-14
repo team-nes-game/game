@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public class EnemyController : EnemyParent
 {
     public GameObject player;
-    public float speed;
     public float backSpeed;
-    public float maxDist;
-    public float minDist;
+    public float maxDist; //starts chasing
+    public float minDist; //attacks at
+    public Transform initial_pos; //where it started
 
     // Start is called before the first frame update
     void Start()
@@ -19,20 +19,21 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector3.Distance(player.transform.position, transform.position);
+        if(!dead){
+            float distance = Vector3.Distance(player.transform.position, transform.position);
 
-        if (distance < maxDist && distance > minDist)
-        {
-            transform.position += (player.transform.position - transform.position) * (1 / speed) * Time.deltaTime;
+            if (distance < maxDist && distance > minDist)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+            }
+            else if(distance == minDist)
+            {
+                // do nothing
+            }
+            else if(distance < minDist)
+            {
+                transform.position -= (player.transform.position - transform.position) * (1 / backSpeed) * Time.deltaTime;
+            }
         }
-        else if(distance == minDist)
-        {
-            // do nothing
-        }
-        else if(distance < minDist)
-        {
-            transform.position -= (player.transform.position - transform.position) * (1 / backSpeed) * Time.deltaTime;
-        }
-
     }
 }
