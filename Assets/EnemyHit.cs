@@ -14,7 +14,9 @@ public class EnemyHit : Hitable
     public override void OnHit(){
     	//needs animations for this to work
     	//base.OnHit();
-    	controller.health -= 1;
+    	if(!controller.invuln){
+    		controller.health -= 1;
+    	}
     	if(controller.health <= 0){
     		controller.SetDead();
     		animator.SetBool("IsDead", true);

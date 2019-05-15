@@ -30,10 +30,11 @@ public class EnemyController : EnemyParent
             {
                 // do nothing
             }
+            /*
             else if(distance < minDist)
             {
                 transform.position -= (player.transform.position - transform.position) * (1 / backSpeed) * Time.deltaTime;
-            }
+            }*/
         }
     }
 }
