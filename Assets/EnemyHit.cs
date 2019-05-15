@@ -14,7 +14,7 @@ public class EnemyHit : Hitable
     public override void OnHit(){
     	//needs animations for this to work
     	//base.OnHit();
-    	if(!controller.invuln){
+    	if(controller.status != EnemyState.knocked && controller.status != EnemyState.dead){
     		controller.health -= 1;
     	}
     	if(controller.health <= 0){

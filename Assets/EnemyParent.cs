@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum EnemyState {idle, moving, knocked, attacking, dead};
+
 public class EnemyParent : MonoBehaviour
 {
 
 	public int health;
 	public int dmg;
 	public float speed;
-	public bool dead;
-	public bool invuln;//whether or not the enemy can take damage
+	public EnemyState status;
 
     // Start is called before the first frame update
     void Start()
     {
-        dead = false;
-        invuln = false;
+        status = EnemyState.idle;
     }
 
     // Update is called once per frame
@@ -25,9 +25,16 @@ public class EnemyParent : MonoBehaviour
     }
 
     public void SetDead(){
-    	dead = true;
+    	status = EnemyState.dead;
     }
-    public void SetInvuln(bool a){
-    	invuln = a;
+    public void SetInvuln(){
+    	if(status != EnemyState.dead){
+    		status = EnemyState.knocked;
+    	}
+    }
+    public void InvulnEnd(){
+    	if(status != EnemyState.dead){
+    		status = EnemyState.idle;
+    	}
     }
 }

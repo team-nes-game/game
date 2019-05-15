@@ -14,16 +14,19 @@ public class PlayerAttack : MonoBehaviour
     	else if(other.CompareTag("enemy")){
     		//hit the enemy
     		other.GetComponent<Hitable>().OnHit();
-    		//apply knockback
-    		Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
-    		if(enemy != null){
-    			enemy.isKinematic = false;
-    			Vector3 difference = enemy.transform.position - transform.position;
-    			difference = difference.normalized * knockback;
-    			enemy.AddForce(difference, ForceMode2D.Impulse);
-    			EnemyParent cont = other.GetComponent<EnemyParent>();
-    			cont.SetInvuln(true);
-    			StartCoroutine(KnockRoutine(enemy, cont));
+    		//check if dead
+    		EnemyParent cont = other.GetComponent<EnemyParent>();
+    		if(cont.status != EnemyState.dead){
+	    		//apply knockback
+	    		Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
+	    		if(enemy != null){
+	    			enemy.isKinematic = false;
+	    			Vector3 difference = enemy.transform.position - transform.position;
+	    			difference = difference.normalized * knockback;
+	    			enemy.AddForce(difference, ForceMode2D.Impulse);
+	    			cont.SetInvuln();
+	    			StartCoroutine(KnockRoutine(enemy, cont));
+	    		}
     		}
     	}
     }
@@ -33,7 +36,7 @@ public class PlayerAttack : MonoBehaviour
     		yield return new WaitForSeconds(kbTime);
     		enemy.velocity = Vector3.zero;
     		enemy.isKinematic = true;
-    		cont.SetInvuln(false);
+    		cont.InvulnEnd();
     	}
     }
 }
