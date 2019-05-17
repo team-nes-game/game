@@ -19,8 +19,7 @@ public class EnemyController : EnemyParent
     // Update is called once per frame
     void Update()
     {
-        if(status != EnemyState.dead && status != EnemyState.knocked
-            && status == EnemyState.idle || status == EnemyState.moving){
+        if(status == EnemyState.idle || status == EnemyState.moving){
             float distance = Vector3.Distance(player.transform.position, transform.position);
 
             if (distance < maxDist && distance > minDist)

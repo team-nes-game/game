@@ -27,12 +27,12 @@ public class EnemyParent : MonoBehaviour
     public void SetDead(){
     	status = EnemyState.dead;
     }
-    public void SetInvuln(){
+    public void SetKnocked(){
     	if(status != EnemyState.dead){
     		status = EnemyState.knocked;
     	}
     }
-    public void InvulnEnd(){
+    public void KnockedEnd(){
     	if(status != EnemyState.dead){
     		status = EnemyState.idle;
     	}

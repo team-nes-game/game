@@ -20,21 +20,26 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D SELF;
     private Animator ANIMATOR;
     private float LAST_X, LAST_Y;
-    private enum STATE { walk, attack_start, attacking, dead };
+    private enum STATE { idle, walk, start_attack, attacking, dead };
 
     // Start is called before the first frame update
     void Start() {
     	SELF       = GetComponent<Rigidbody2D>();
     	CUR_HEALTH = MAX_HEALTH;
-    	// STATUS     = STATE.walk;
+    	STATUS     = STATE.idle;
     	MOVEMENT   = Vector3.zero;
     	ANIMATOR   = GetComponent<Animator>();
     }
 
 	// Called every frame, keep it low on cost pls
     private void Update() {
-    	MoveCharacter();
-    	Animate(MOVEMENT);
+    	if(STATUS == STATE.idle || STATUS == STATE.walk){
+    		MoveCharacter();
+    		Animate(MOVEMENT);
+    	}
+    	if(Input.GetAxisRaw("Attack") == 1 && STATUS != STATE.attacking){
+    		STATUS = STATE.start_attack;
+    	}
     }
 
     private void MoveCharacter() {
@@ -56,6 +61,7 @@ public class PlayerController : MonoBehaviour {
 	    	ANIMATOR.SetFloat("lastX", LAST_X);
 	    	ANIMATOR.SetFloat("lastY", LAST_Y);
 	    	ANIMATOR.SetBool("Moving", false);
+	    	STATUS = STATE.idle;
     	}
     	// Running animation where we set up which direction
     	// we were last facing in order to maintain consistent
@@ -64,6 +70,7 @@ public class PlayerController : MonoBehaviour {
     		LAST_X = direction.x;
     		LAST_Y = direction.y;
     		ANIMATOR.SetBool("Moving", true);
+    		STATUS = STATE.walk;
     	}
 
     	ANIMATOR.SetFloat("moveX", direction.x);
@@ -76,18 +83,25 @@ public class PlayerController : MonoBehaviour {
     		print("Player killed");
     		STATUS = STATE.dead;
     	}
+    	if(STATUS == STATE.start_attack){
+    		StartCoroutine(AttackRoutine());
+    	}
+    }
+
+    private IEnumerator AttackRoutine() {
+    	STATUS = STATE.attacking;
+    	ANIMATOR.SetFloat("lastX", LAST_X);
+	    ANIMATOR.SetFloat("lastY", LAST_Y);
+	    ANIMATOR.SetBool("Moving", false);
+	    SELF.GetComponent<Rigidbody2D>().isKinematic = true;
+    	ANIMATOR.SetBool("Attacking", true);
+    	yield return null;   	
+    	ANIMATOR.SetBool("Attacking", false);
+    	yield return new WaitForSeconds(1f);
+    	STATUS = STATE.idle;
+    	SELF.GetComponent<Rigidbody2D>().isKinematic = false;
     }
 }
-
-//     private IEnumerator AttackRoutine() {
-//     	animator.SetBool("Attacking", true);
-//     	status = State.attacking;
-//     	yield return null;   	
-//     	animator.SetBool("Attacking", false);
-//     	yield return new WaitForSeconds(.3f);
-//     	status = State.walk;
-//     }
-
 //     public void TakeDmg(int dmg) {
 //     	cur_health -= dmg;
 //     }
