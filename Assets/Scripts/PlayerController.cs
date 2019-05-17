@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour {
 	// +-------------+
 	// | Public      |
 	// +-------------+
+    public int DAMAGE;
 	public int MAX_HEALTH;
     public float MOVEMENT_SPEED;
 
@@ -33,13 +34,28 @@ public class PlayerController : MonoBehaviour {
 
 	// Called every frame, keep it low on cost pls
     private void Update() {
-    	if(STATUS == STATE.idle || STATUS == STATE.walk){
+    	if (STATUS == STATE.idle || STATUS == STATE.walk){
     		MoveCharacter();
     		Animate(MOVEMENT);
     	}
     	if(Input.GetAxisRaw("Attack") == 1 && STATUS != STATE.attacking){
-    		STATUS = STATE.start_attack;
+            STATUS = STATE.start_attack;
     	}
+        Attack(SELF.position, 250);
+    }
+
+    private void Attack(Vector3 center, float radius) {
+        int i = 0;
+
+        Collider[] others = Physics.OverlapSphere(center, radius);
+        while (i < others.Length) {
+            Debug.Log("found something");
+            float distance = Vector2.Distance(transform.position, others[i].transform.position);
+            if (distance < 2.0f) {
+                others[i].GetComponent<EnemyController>().TakeDamage(DAMAGE);
+            }
+            ++i;
+        }            
     }
 
     private void MoveCharacter() {
@@ -50,7 +66,8 @@ public class PlayerController : MonoBehaviour {
         // Ensure that our player cannot move faster in
         // diagonal movement by clamping it, then speed
         // up our player by whatever factor is required
-        MOVEMENT = Vector3.ClampMagnitude(MOVEMENT, 1);
+        // MOVEMENT = Vector3.ClampMagnitude(MOVEMENT, 1);
+        MOVEMENT = MOVEMENT.normalized;
 
     	SELF.MovePosition(transform.position + MOVEMENT * MOVEMENT_SPEED * Time.deltaTime);
     }
@@ -95,6 +112,7 @@ public class PlayerController : MonoBehaviour {
 	    ANIMATOR.SetBool("Moving", false);
 	    SELF.GetComponent<Rigidbody2D>().isKinematic = true;
     	ANIMATOR.SetBool("Attacking", true);
+        Attack(transform.position, 20);
     	yield return null;   	
     	ANIMATOR.SetBool("Attacking", false);
     	yield return new WaitForSeconds(1f);

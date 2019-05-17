@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: e001ec0a48eb50c479f3afec2592e207
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2018166945946271252
+    second: Abominable - dSW_0
+  - first:
+      213: 7201937270310956053
+    second: Abominable - dSW_1
+  - first:
+      213: -3569498459506382990
+    second: Abominable - dSW_2
+  - first:
+      213: 5293077825962075614
+    second: Abominable - dSW_3
+  - first:
+      213: 6313727044668611481
+    second: Abominable - dSW_4
+  - first:
+      213: 6852370076111363618
+    second: Abominable - dSW_5
+  - first:
+      213: 173327697704148405
+    second: Abominable - dSW_6
+  - first:
+      213: 2051221040829395908
+    second: Abominable - dSW_7
+  - first:
+      213: 3497183638735134168
+    second: Abominable - dSW_8
+  - first:
+      213: -8495508849583037404
+    second: Abominable - dSW_9
+  - first:
+      213: 5615714056484507250
+    second: Abominable - dSW_10
+  - first:
+      213: -2168264740425534271
+    second: Abominable - dSW_11
+  - first:
+      213: 7110823850577519146
+    second: Abominable - dSW_12
+  - first:
+      213: 7866959747121183606
+    second: Abominable - dSW_13
+  - first:
+      213: 1057126943133193085
+    second: Abominable - dSW_14
+  - first:
+      213: -1400096909984742279
+    second: Abominable - dSW_15
+  - first:
+      213: -6824193151082597294
+    second: Abominable - dSW_16
+  - first:
+      213: 4039552282866108316
+    second: Abominable - dSW_17
+  - first:
+      213: -6542120579182715067
+    second: Abominable - dSW_18
+  - first:
+      213: 6723876796109435484
+    second: Abominable - dSW_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Abominable - dSW_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 82
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d7a149da3550644ad31853fdedebc3
+      internalID: 2018166945946271252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 55
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8dabfff1056f14185fcefdbbdfad92
+      internalID: 7201937270310956053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 49
+        width: 104
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4964d6431fb025347913e46a5a7aba28
+      internalID: -3569498459506382990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 41
+        width: 111
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b68d34ffe2638143993602b65865f82
+      internalID: 5293077825962075614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_4
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 32
+        width: 115
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800b0d4b60c5b3249b0ff2965cc1c870
+      internalID: 6313727044668611481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_5
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 30
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c8d87bd94e7554f924e2550798dce9
+      internalID: 6852370076111363618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_6
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 30
+        width: 115
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dd4985fa314a74faad36924813da5b
+      internalID: 173327697704148405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_7
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 32
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302d81a7cfc6a804fb97b78c67dc4bfe
+      internalID: 2051221040829395908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_8
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 29
+        width: 100
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94f20fdca9ca8b4da7ad05b74e59a18
+      internalID: 3497183638735134168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_9
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 29
+        width: 109
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6a759a472de6f44884c8ecc5a15e1a
+      internalID: -8495508849583037404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_10
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 29
+        width: 121
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a28b9b3cd760a40b3dbdef74e6799d
+      internalID: 5615714056484507250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_11
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 30
+        width: 135
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b343093239a9b0409fc44ef9b26d77e
+      internalID: -2168264740425534271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_12
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 35
+        width: 140
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3ce46b1e250714e979f9056622f425
+      internalID: 7110823850577519146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_13
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 39
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e04e526bcaf41649a1021ad09336949
+      internalID: 7866959747121183606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_14
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 37
+        width: 161
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5a545d391053848ac3ebd45d9abf41
+      internalID: 1057126943133193085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_15
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 34
+        width: 165
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b43d4e4ded98f14cb526a758bb162c4
+      internalID: -1400096909984742279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_16
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 34
+        width: 170
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176f6281de4a74546b1e8941c008e3d1
+      internalID: -6824193151082597294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_17
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 34
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fafbe0834205af44aa146ba069528d2
+      internalID: 4039552282866108316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_18
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 30
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a312bb7f91b62b74abc042bda7cd4042
+      internalID: -6542120579182715067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abominable - dSW_19
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 25
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7d6be7110f8bf4195e9f215c060973
+      internalID: 6723876796109435484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8720cc42004bc9048a59b9b5ce66097d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
