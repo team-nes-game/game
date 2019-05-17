@@ -9,24 +9,25 @@ public class PlayerAttack : MonoBehaviour {
 
     private Rigidbody2D ENEMY;
 
-    // private void OnTriggerEnter2D(Collider2D other){
-    // 	if(other.CompareTag("hitable")){
-    // 		other.GetComponent<Hitable>().OnHit();
-    // 	}
-    // 	else if(other.CompareTag("enemy")){
-    // 		//hit the enemy
-    // 		other.GetComponent<Hitable>().OnHit();
-    // 		//check if dead
-    // 		EnemyParent cont = other.GetComponent<EnemyParent>();
-    // 		if(cont.status != EnemyState.dead && cont.status != EnemyState.knocked){
-	   //  		//apply knockback
-	   //  		Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
-	   //  		if(enemy != null){
-	   //  			StartCoroutine(KnockRoutine(enemy));
-	   //  		}
-    // 		}
-    // 	}
-    // }
+    private void OnTriggerEnter2D(Collider2D other){
+    	if(other.CompareTag("hitable")){
+    		other.GetComponent<Hitable>().OnHit();
+    	}
+    	else if(other.CompareTag("Enemy")){
+    		//hit the enemy
+    		//other.GetComponent<Hitable>().OnHit();
+    		//check if dead
+    		EnemyController cont = other.GetComponent<EnemyController>();
+            cont.TakeDamage(DAMAGE);
+    		// if(cont.status != EnemyState.dead && cont.status != EnemyState.knocked){
+	    	// 	//apply knockback
+	    	// 	Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
+	    	// 	if(enemy != null){
+	    	// 		StartCoroutine(KnockRoutine(enemy));
+	    	// 	}
+    		//}
+    	}
+    }
 
     // private IEnumerator KnockRoutine(Rigidbody2D enemy){
     // 	if(enemy != null){

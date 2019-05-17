@@ -21,6 +21,8 @@ public class EnemyController : MonoBehaviour {
     private Animator ANIMATOR;
     private float DIST_TO_TAR;
     private float LAST_X, LAST_Y;
+    private bool DYING;
+    private bool DEAD;
 
     // Start is called before the first frame update
     void Start() {
@@ -29,6 +31,8 @@ public class EnemyController : MonoBehaviour {
         TARGET      = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         ANIMATOR    = GetComponent<Animator>();
         DIST_TO_TAR = Vector2.Distance(transform.position, TARGET.position);
+        DYING = false;
+        DEAD = false;
     }
 
     // Update is called once per frame
@@ -37,8 +41,10 @@ public class EnemyController : MonoBehaviour {
     }
 
     void LateUpdate() {
-        MoveEnemy();
-        Animate(TARGET.position - transform.position);
+        if(CUR_HEALTH > 0){
+            MoveEnemy();
+        }
+            Animate(TARGET.position - transform.position);
     }
 
     void MoveEnemy() {
@@ -53,8 +59,23 @@ public class EnemyController : MonoBehaviour {
     // This is the same animation from the player, just modified to add the functionality
     // of having to animate more stuff for the enemy
     private void Animate(Vector3 direction) {
+        //death
+        if(CUR_HEALTH <= 0){
+            ANIMATOR.SetFloat("lastX", LAST_X);
+            ANIMATOR.SetFloat("lastY", LAST_Y);
+            //start dying
+            // if(!DYING){
+            //     DYING = true;
+            //     StartCoroutine(dyingCo());
+            // }
+            //end of animation
+            if(!DEAD){
+                DEAD = true;
+                ANIMATOR.SetBool("Dead", true);
+            }
+        }
         // Idle animation
-        if (Vector2.Distance(transform.position, TARGET.position) > MAX_DISTANCE) {
+        else if (Vector2.Distance(transform.position, TARGET.position) > MAX_DISTANCE) {
             ANIMATOR.SetFloat("lastX", LAST_X);
             ANIMATOR.SetFloat("lastY", LAST_Y);
             ANIMATOR.SetBool("Moving", false);
@@ -83,5 +104,17 @@ public class EnemyController : MonoBehaviour {
     public void TakeDamage(int damage) {
         CUR_HEALTH -= damage;
         Debug.Log("taking damage");
+        Debug.Log($"current health {CUR_HEALTH}");
+    }
+
+    private IEnumerator dyingCo(){
+        Debug.Log("before dying");
+        ANIMATOR.SetBool("Dying", DYING);
+        ANIMATOR.SetBool("Moving", false);
+        ANIMATOR.SetBool("Attacking", false);
+        yield return new WaitForSeconds(1.20f);
+        Debug.Log("after dying");
+        ANIMATOR.SetBool("Dying", false);
+        DEAD = true;
     }
 }
