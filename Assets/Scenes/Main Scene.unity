@@ -6213,7 +6213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DAMAGE: 1
-  FORCE: 3
+  FORCE: 4
   DURATION: 0.2
 --- !u!1 &356650661
 GameObject:

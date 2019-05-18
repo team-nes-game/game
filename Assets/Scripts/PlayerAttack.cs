@@ -9,6 +9,10 @@ public class PlayerAttack : MonoBehaviour {
 
     private Rigidbody2D ENEMY;
 
+    // void Start(){
+    //     kb = new Knockback();
+    // }
+
     private void OnTriggerEnter2D(Collider2D other){
     	if(other.CompareTag("hitable")){
     		other.GetComponent<Hitable>().OnHit();
@@ -16,9 +20,13 @@ public class PlayerAttack : MonoBehaviour {
     	else if(other.CompareTag("Enemy")){
     		//hit the enemy
     		//other.GetComponent<Hitable>().OnHit();
-    		//check if dead
     		EnemyController cont = other.GetComponent<EnemyController>();
             cont.TakeDamage(DAMAGE);
+            StartCoroutine(cont.Knockback(transform.position, FORCE, DURATION));
+            // Rigidbody2D rb = GetComponentInParent<Rigidbody2D>();
+            // Knockback.KB(other.GetComponent<Rigidbody2D>(), 
+            //               rb,
+            //               FORCE, DURATION);
     		// if(cont.status != EnemyState.dead && cont.status != EnemyState.knocked){
 	    	// 	//apply knockback
 	    	// 	Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
@@ -28,22 +36,4 @@ public class PlayerAttack : MonoBehaviour {
     		//}
     	}
     }
-
-    // private IEnumerator KnockRoutine(Rigidbody2D enemy){
-    // 	if(enemy != null){
-    //         EnemyParent temp = enemy.GetComponent<EnemyParent>();
-    //         temp.SetKnocked();
-    //         enemy.isKinematic = false;
-    //         Vector3 difference = enemy.transform.position - transform.position;
-    //         difference = difference.normalized * knockback;
-    //         enemy.AddForce(difference, ForceMode2D.Impulse);
-    //         Debug.Log("Before 38");
-    // 		yield return new WaitForSecondsRealtime(kbTime);
-    //         Debug.Log("After 38");
-    //         print("done with knockback");
-    // 		enemy.velocity = Vector3.zero;
-    // 		enemy.isKinematic = true;
-    // 		temp.KnockedEnd();
-    // 	}
-    // }
 }

@@ -23,6 +23,7 @@ public class EnemyController : MonoBehaviour {
     private float LAST_X, LAST_Y;
     private bool DYING;
     private bool DEAD;
+    private bool KNOCKED;
 
     // Start is called before the first frame update
     void Start() {
@@ -33,6 +34,7 @@ public class EnemyController : MonoBehaviour {
         DIST_TO_TAR = Vector2.Distance(transform.position, TARGET.position);
         DYING = false;
         DEAD = false;
+        KNOCKED = false;
     }
 
     // Update is called once per frame
@@ -41,7 +43,7 @@ public class EnemyController : MonoBehaviour {
     }
 
     void LateUpdate() {
-        if(CUR_HEALTH > 0){
+        if(CUR_HEALTH > 0 && !KNOCKED){
             MoveEnemy();
         }
             Animate(TARGET.position - transform.position);
@@ -103,8 +105,8 @@ public class EnemyController : MonoBehaviour {
 
     public void TakeDamage(int damage) {
         CUR_HEALTH -= damage;
-        Debug.Log("taking damage");
-        Debug.Log($"current health {CUR_HEALTH}");
+        // Debug.Log("taking damage");
+        // Debug.Log($"current health {CUR_HEALTH}");
     }
 
     private IEnumerator dyingCo(){
@@ -116,5 +118,27 @@ public class EnemyController : MonoBehaviour {
         Debug.Log("after dying");
         ANIMATOR.SetBool("Dying", false);
         DEAD = true;
+    }
+
+    public void SetKnocked(){
+        KNOCKED = true;
+    }
+    public void KnockedEnd(){
+        KNOCKED = false;
+    }
+
+    public IEnumerator Knockback(Vector3 other, float kb, float kbtime){
+        if(!DEAD && !DYING){
+            Rigidbody2D body = GetComponent<Rigidbody2D>();
+            SetKnocked();
+            //isKinematic = false;
+            Vector3 difference = transform.position - other;
+            difference = difference.normalized * kb;
+            body.AddForce(difference, ForceMode2D.Impulse);
+            yield return new WaitForSecondsRealtime(kbtime);
+            body.velocity = Vector3.zero;
+            //attackee.isKinematic = true;
+            KnockedEnd();
+        }
     }
 }
