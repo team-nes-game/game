@@ -131,13 +131,13 @@ public class EnemyController : MonoBehaviour {
         if(!DEAD && !DYING){
             Rigidbody2D body = GetComponent<Rigidbody2D>();
             SetKnocked();
-            //isKinematic = false;
+            //body.isKinematic = false;
             Vector3 difference = transform.position - other;
             difference = difference.normalized * kb;
             body.AddForce(difference, ForceMode2D.Impulse);
             yield return new WaitForSecondsRealtime(kbtime);
             body.velocity = Vector3.zero;
-            //attackee.isKinematic = true;
+            //body.isKinematic = true;
             KnockedEnd();
         }
     }

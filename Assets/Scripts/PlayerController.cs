@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D SELF;
     private Animator ANIMATOR;
     private float LAST_X, LAST_Y;
-    private enum STATE { idle, walk, start_attack, attacking, dead };
+    private enum STATE { idle, walk, start_attack, attacking, dead, kb };
 
     // Start is called before the first frame update
     void Start() {
@@ -119,8 +119,23 @@ public class PlayerController : MonoBehaviour {
     	STATUS = STATE.idle;
     	SELF.GetComponent<Rigidbody2D>().isKinematic = false;
     }
+
+    public IEnumerator player_kb(Vector3 other, float kb, float kbtime){
+        if(STATUS != STATE.dead){
+            STATUS = STATE.kb;
+            Vector3 difference = transform.position - other;
+            difference = difference.normalized * kb;
+            SELF.AddForce(difference, ForceMode2D.Impulse);
+            yield return new WaitForSecondsRealtime(kbtime);
+            SELF.velocity = Vector3.zero;
+            STATUS = STATE.idle;
+        }
+    }
+
+    public void TakeDmg(int dmg, float force, float duration, Vector3 other) {
+    	CUR_HEALTH -= dmg;
+        StartCoroutine(player_kb(other, force, duration));
+    }
+
+
 }
-//     public void TakeDmg(int dmg) {
-//     	cur_health -= dmg;
-//     }
-// }
