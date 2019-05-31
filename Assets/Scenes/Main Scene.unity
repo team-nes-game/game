@@ -5756,7 +5756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DAMAGE: 0
   MAX_HEALTH: 5
-  MOVEMENT_SPEED: 7
+  MOVEMENT_SPEED: 6
   progressBarFull: {fileID: 2800000, guid: a9ce7fb0f59647c49ab3caff075af355, type: 3}
 --- !u!95 &303345461
 Animator:

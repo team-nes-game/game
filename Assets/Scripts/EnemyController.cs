@@ -66,14 +66,9 @@ public class EnemyController : MonoBehaviour {
             ANIMATOR.SetFloat("lastX", LAST_X);
             ANIMATOR.SetFloat("lastY", LAST_Y);
             //start dying
-            // if(!DYING){
-            //     DYING = true;
-            //     StartCoroutine(dyingCo());
-            // }
-            //end of animation
-            if(!DEAD){
-                DEAD = true;
-                ANIMATOR.SetBool("Dead", true);
+            if(!DYING){
+                DYING = true;
+                StartCoroutine(dyingCo());
             }
         }
         // Idle animation
@@ -110,14 +105,18 @@ public class EnemyController : MonoBehaviour {
     }
 
     private IEnumerator dyingCo(){
-        Debug.Log("before dying");
-        ANIMATOR.SetBool("Dying", DYING);
+        //Start dying
         ANIMATOR.SetBool("Moving", false);
         ANIMATOR.SetBool("Attacking", false);
-        yield return new WaitForSeconds(1.20f);
-        Debug.Log("after dying");
-        ANIMATOR.SetBool("Dying", false);
+        //ANIMATOR.SetBool("Dying", DYING);
+        //yield return new WaitForSeconds(1.25f);
+        //ANIMATOR.SetBool("Dying", false);
+        //end dying
+        yield return null;
+        ANIMATOR.SetBool("Dead", true);
         DEAD = true;
+        //make sure the player cant kick the corpse around
+        SELF.GetComponent<Rigidbody2D>().isKinematic = true;
     }
 
     public void SetKnocked(){

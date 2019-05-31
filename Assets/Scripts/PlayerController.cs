@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour {
     private Animator ANIMATOR;
     private float LAST_X, LAST_Y;
     private enum STATE { idle, walk, start_attack, attacking, dead, kb, pause};
+    private IEnumerator ATTACK_ROU;
 
     private float barDisplay = 1;
     Vector2 pos = new Vector2(20,40);
@@ -41,6 +42,7 @@ public class PlayerController : MonoBehaviour {
     	STATUS     = STATE.idle;
     	MOVEMENT   = Vector3.zero;
     	ANIMATOR   = GetComponent<Animator>();
+        ATTACK_ROU = AttackRoutine();
     }
 
 	// Called every frame, keep it low on cost pls
@@ -52,7 +54,7 @@ public class PlayerController : MonoBehaviour {
     	if(Input.GetAxisRaw("Attack") == 1 && STATUS != STATE.attacking){
             STATUS = STATE.start_attack;
     	}
-        Attack(SELF.position, 250);
+        //Attack(SELF.position, 250);
 
 
         // GUI Health Bar
@@ -120,25 +122,30 @@ public class PlayerController : MonoBehaviour {
         GUI.EndGroup();
     }
 
-    private void Attack(Vector3 center, float radius) {
-        int i = 0;
+    // private void Attack(Vector3 center, float radius) {
+    //     int i = 0;
 
-        Collider[] others = Physics.OverlapSphere(center, radius);
-        while (i < others.Length) {
-            Debug.Log("found something");
-            float distance = Vector2.Distance(transform.position, others[i].transform.position);
-            if (distance < 2.0f) {
-                others[i].GetComponent<EnemyController>().TakeDamage(DAMAGE);
-            }
-            ++i;
-        }            
-    }
+    //     Collider[] others = Physics.OverlapSphere(center, radius);
+    //     while (i < others.Length) {
+    //         Debug.Log("found something");
+    //         float distance = Vector2.Distance(transform.position, others[i].transform.position);
+    //         if (distance < 2.0f) {
+    //             others[i].GetComponent<EnemyController>().TakeDamage(DAMAGE);
+    //         }
+    //         ++i;
+    //     }            
+    // }
 
     private void MoveCharacter() {
 		// The movement vector being initialized
         MOVEMENT.x = Input.GetAxisRaw("Horizontal");
         MOVEMENT.y = Input.GetAxisRaw("Vertical");
 
+        //interupt an attack if its happening
+        // if(STATUS == STATE.attacking && MOVEMENT.x > 0 || MOVEMENT.y > 0){
+        //     StopCoroutine(ATTACK_ROU);
+        //     STATUS = STATE.idle;
+        // }
         // Ensure that our player cannot move faster in
         // diagonal movement by clamping it, then speed
         // up our player by whatever factor is required
@@ -173,7 +180,6 @@ public class PlayerController : MonoBehaviour {
     private void FixedUpdate() {
     	// Ded
     	if (CUR_HEALTH <= 0) {
-    		print("Player killed");
     		STATUS = STATE.dead;
     	}
     	if(STATUS == STATE.start_attack){
@@ -186,14 +192,14 @@ public class PlayerController : MonoBehaviour {
     	ANIMATOR.SetFloat("lastX", LAST_X);
 	    ANIMATOR.SetFloat("lastY", LAST_Y);
 	    ANIMATOR.SetBool("Moving", false);
-	    SELF.GetComponent<Rigidbody2D>().isKinematic = true;
+	    //SELF.GetComponent<Rigidbody2D>().isKinematic = true;
     	ANIMATOR.SetBool("Attacking", true);
         //Attack(transform.position, 20);
     	yield return null;   	
     	ANIMATOR.SetBool("Attacking", false);
     	yield return new WaitForSeconds(1f);
     	STATUS = STATE.idle;
-    	SELF.GetComponent<Rigidbody2D>().isKinematic = false;
+    	//SELF.GetComponent<Rigidbody2D>().isKinematic = false;
     }
 
     public IEnumerator player_kb(Vector3 other, float kb, float kbtime){
@@ -212,6 +218,4 @@ public class PlayerController : MonoBehaviour {
     	CUR_HEALTH -= dmg;
         StartCoroutine(player_kb(other, force, duration));
     }
-
-
 }
