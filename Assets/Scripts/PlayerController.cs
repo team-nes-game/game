@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D SELF;
     private Animator ANIMATOR;
     private float LAST_X, LAST_Y;
-    private enum STATE { idle, walk, start_attack, attacking, dead, kb };
+    private enum STATE { idle, walk, start_attack, attacking, dead, kb, pause};
 
     private float barDisplay = 1;
     Vector2 pos = new Vector2(20,40);
@@ -66,6 +66,12 @@ public class PlayerController : MonoBehaviour {
                 Time.timeScale = 0;
             else
                 Time.timeScale = 1;
+            if(STATUS == STATE.pause){
+                STATUS = STATE.idle;
+            }
+            else{
+                STATUS = STATE.pause;
+            }
         }
 
     }
@@ -93,6 +99,13 @@ public class PlayerController : MonoBehaviour {
         if (isPause)
         {
             //GUI.Window(0, MainMenu, TheMainMenu, "Pause Menu");
+            GUI.BeginGroup(new Rect(Screen.width / 2, Screen.height / 2, size.x, size.y));
+            GUI.Box(new Rect(0, 0, size.x, size.y), progressBarEmpty);
+
+            GUI.BeginGroup(new Rect(0, 0, size.x, size.y));
+            GUI.Box(new Rect(0, 0, size.x, size.y), "Paused");
+            GUI.EndGroup();
+            GUI.EndGroup();
         }
             
         // draw the background:
