@@ -4906,7 +4906,6 @@ CompositeCollider2D:
       - {x: -22, y: -25.937502}
       - {x: -22, y: -26.53125}
   m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.000005
 --- !u!50 &96608526
 Rigidbody2D:
   serializedVersion: 4
@@ -4943,7 +4942,6 @@ TilemapCollider2D:
   m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0.00001
 --- !u!1 &172256229
 GameObject:
   m_ObjectHideFlags: 0
@@ -6617,7 +6615,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7685,7 +7683,6 @@ CompositeCollider2D:
       - {x: -9.285615, y: -15.066094}
       - {x: -8.70749, y: -15.066094}
   m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.000005
 --- !u!50 &803759070
 Rigidbody2D:
   serializedVersion: 4
@@ -7722,7 +7719,6 @@ TilemapCollider2D:
   m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0.00001
 --- !u!1 &811870861
 GameObject:
   m_ObjectHideFlags: 0
@@ -8027,7 +8023,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -25355,7 +25351,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -28341,7 +28337,6 @@ TilemapCollider2D:
   m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0.00001
 --- !u!66 &1169548452
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -34926,7 +34921,6 @@ CompositeCollider2D:
       - {x: -18.785614, y: -25.066095}
       - {x: -18.207489, y: -25.066095}
   m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.000005
 --- !u!50 &1169548453
 Rigidbody2D:
   serializedVersion: 4
@@ -36683,7 +36677,6 @@ TilemapCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0.00001
 --- !u!4 &1383977816 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7531789604186356561, guid: 0224a51190de904479833b5530c5bb97,
@@ -36914,7 +36907,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -37082,7 +37075,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -41910,7 +41903,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -45550,7 +45543,6 @@ TilemapCollider2D:
   m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0.00001
 --- !u!66 &1766482660
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -50827,7 +50819,6 @@ CompositeCollider2D:
       - {x: -24.03125, y: -26.53125}
       - {x: -24, y: -26.53125}
   m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.000005
 --- !u!50 &1766482661
 Rigidbody2D:
   serializedVersion: 4
@@ -89511,7 +89502,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -89713,7 +89704,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

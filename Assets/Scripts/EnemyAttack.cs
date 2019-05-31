@@ -10,7 +10,6 @@ public class EnemyAttack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other){
     	if(other.CompareTag("Player")){
-    		Debug.Log("hit Player");
     		PlayerController cont = other.GetComponent<PlayerController>();
     		cont.TakeDmg(DAMAGE, FORCE, DURATION, transform.position);
     	} 

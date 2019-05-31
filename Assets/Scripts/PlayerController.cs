@@ -188,7 +188,7 @@ public class PlayerController : MonoBehaviour {
 	    ANIMATOR.SetBool("Moving", false);
 	    SELF.GetComponent<Rigidbody2D>().isKinematic = true;
     	ANIMATOR.SetBool("Attacking", true);
-        Attack(transform.position, 20);
+        //Attack(transform.position, 20);
     	yield return null;   	
     	ANIMATOR.SetBool("Attacking", false);
     	yield return new WaitForSeconds(1f);
