@@ -1,0 +1,771 @@
+fileFormatVersion: 2
+guid: fe46ba7d58b19bc4a8dfe2572cd696d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8102862152078107097
+    second: Hell Bovine - dN_0
+  - first:
+      213: -2695130726931967240
+    second: Hell Bovine - dN_1
+  - first:
+      213: 6401822571085525827
+    second: Hell Bovine - dN_2
+  - first:
+      213: -1915362155542579369
+    second: Hell Bovine - dN_3
+  - first:
+      213: 1165894924998899274
+    second: Hell Bovine - dN_4
+  - first:
+      213: 8345207479233467676
+    second: Hell Bovine - dN_5
+  - first:
+      213: 359248128943569036
+    second: Hell Bovine - dN_6
+  - first:
+      213: 4319555097630706710
+    second: Hell Bovine - dN_7
+  - first:
+      213: -8182812450039403215
+    second: Hell Bovine - dN_8
+  - first:
+      213: -7795223048195515307
+    second: Hell Bovine - dN_9
+  - first:
+      213: 7685182696883931686
+    second: Hell Bovine - dN_10
+  - first:
+      213: -3121875468582731095
+    second: Hell Bovine - dN_11
+  - first:
+      213: 6141017680761919347
+    second: Hell Bovine - dN_12
+  - first:
+      213: -6003370999348114870
+    second: Hell Bovine - dN_13
+  - first:
+      213: -8057326130571337908
+    second: Hell Bovine - dN_14
+  - first:
+      213: -1820618013346547003
+    second: Hell Bovine - dN_15
+  - first:
+      213: -2277464086920853767
+    second: Hell Bovine - dN_16
+  - first:
+      213: -6864058643852033966
+    second: Hell Bovine - dN_17
+  - first:
+      213: -2553394840530143461
+    second: Hell Bovine - dN_18
+  - first:
+      213: 9094723560597654818
+    second: Hell Bovine - dN_19
+  - first:
+      213: -3754323257221158815
+    second: Hell Bovine - dN_20
+  - first:
+      213: -4291661580048295526
+    second: Hell Bovine - dN_21
+  - first:
+      213: -6711313559445347511
+    second: Hell Bovine - dN_22
+  - first:
+      213: -5396829665018471318
+    second: Hell Bovine - dN_23
+  - first:
+      213: -6970493285306047924
+    second: Hell Bovine - dN_24
+  - first:
+      213: -3945819925433259718
+    second: Hell Bovine - dN_25
+  - first:
+      213: 1492582224549371399
+    second: Hell Bovine - dN_26
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hell Bovine - dN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 52
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59ab9ee713484849a70dfab45bf7bef
+      internalID: -8102862152078107097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 50
+        width: 52
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd3ef5cbf665dd488a144666dcfa35f
+      internalID: -2695130726931967240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 51
+        width: 58
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8c04990d2e1fd4c92f457e2c7dc393
+      internalID: 6401822571085525827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 50
+        width: 71
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e16d5f62961f4479e923b4d3e87658
+      internalID: -1915362155542579369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 48
+        width: 82
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9042244d81becb34d89b0cdf07b152e6
+      internalID: 1165894924998899274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_5
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 153
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c924f49c1d33248be1e367a282dd3c
+      internalID: 8345207479233467676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_6
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 145
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae82b88286c3a8479a37ab8c753104d
+      internalID: 359248128943569036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_7
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 35
+        width: 90
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bcdd72f382f3a4b88580b9faf405e2
+      internalID: 4319555097630706710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_8
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 42
+        width: 83
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084ab1509e177ab41897803b3609444c
+      internalID: -8182812450039403215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_9
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 147
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f403a656792f1e8438b119fe01f19431
+      internalID: -7795223048195515307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_10
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 135
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad509d8cdc4623a4c9eb5381ef5aa8ec
+      internalID: 7685182696883931686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_11
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 123
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df6cd9bbffb5a942a7152376936cae7
+      internalID: -3121875468582731095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_12
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 132
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01ecc42c943b8743b15dd4636595a8f
+      internalID: 6141017680761919347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_13
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 33
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54b7305d2abe604fa435e60a819dab4
+      internalID: -6003370999348114870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_14
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 131
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e17154ff1d1104b9314ae89c5f5dcb
+      internalID: -8057326130571337908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_15
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 129
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a23379965cfba42bb3528c1b034d84
+      internalID: -1820618013346547003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_16
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 133
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f974dc6bdbe0642a49446be710a249
+      internalID: -2277464086920853767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_17
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 115
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb3570f486d18641b81eb1bb23a4f61
+      internalID: -6864058643852033966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_18
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 33
+        width: 107
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed665642ec5cd24583b87349f71e22c
+      internalID: -2553394840530143461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_19
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 111
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80588afb4592db43be2c08ddb93b882
+      internalID: 9094723560597654818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_20
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 35
+        width: 96
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7131dd52e5fcf64cbf248e6f4e3daa1
+      internalID: -3754323257221158815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_21
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 107
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39607cef10a70744aa285ec77344c76
+      internalID: -4291661580048295526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_22
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 102
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14150e35dbdb3a941845e9b411e407bd
+      internalID: -6711313559445347511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_23
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 36
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3e3ce4c1614e64ba748746845ac9ab
+      internalID: -5396829665018471318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_24
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 35
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8f8e696188e9041b5f6db5c972415b
+      internalID: -6970493285306047924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_25
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 37
+        width: 83
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba940d831e007d4d85189a1ffba1805
+      internalID: -3945819925433259718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hell Bovine - dN_26
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 38
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656e729a30529a54dbb2357dfc746a75
+      internalID: 1492582224549371399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 03a8bd84dcd501e4bba81c93d8007299
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
