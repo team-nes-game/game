@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour {
     public int DAMAGE;
 	public int MAX_HEALTH;
     public float MOVEMENT_SPEED;
+    public Texture2D progressBarFull;
+
 
     // +-----------+
     // | Private   |
@@ -22,6 +24,15 @@ public class PlayerController : MonoBehaviour {
     private Animator ANIMATOR;
     private float LAST_X, LAST_Y;
     private enum STATE { idle, walk, start_attack, attacking, dead, kb };
+
+    float barDisplay = 0;
+    Vector2 pos = new Vector2(20,40);
+    Vector2 size = new Vector2(120,20);
+    Texture2D progressBarEmpty;
+
+    bool isPause = false;
+    Rect MainMenu = new Rect(10, 10, 200, 200);
+
 
     // Start is called before the first frame update
     void Start() {
@@ -42,6 +53,58 @@ public class PlayerController : MonoBehaviour {
             STATUS = STATE.start_attack;
     	}
         Attack(SELF.position, 250);
+
+
+        // GUI Health Bar
+        barDisplay = CUR_HEALTH;
+
+        // Pause
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            isPause = !isPause;
+            if (isPause)
+                Time.timeScale = 0;
+            else
+                Time.timeScale = 1;
+        }
+
+    }
+
+    //https://answers.unity.com/questions/532619/pause-menu-3.html
+    void  TheMainMenu()
+    {
+        if (GUILayout.Button("Main Menu"))
+        {
+            //Application.LoadLevel("MainMenu");
+        }
+        if (GUILayout.Button("Restart"))
+        {
+            //Application.LoadLevel("InGame");
+        }
+        if (GUILayout.Button("Quit"))
+        {
+            Application.Quit();
+        }
+    }
+
+    //https://answers.unity.com/questions/11892/how-would-you-make-an-energy-bar-loading-progress.html
+    void OnGUI()
+    {
+        if (isPause)
+        {
+            //GUI.Window(0, MainMenu, TheMainMenu, "Pause Menu");
+        }
+            
+        // draw the background:
+        GUI.BeginGroup(new Rect(pos.x, pos.y, size.x, size.y));
+        GUI.Box(new Rect(0, 0, size.x, size.y), progressBarEmpty);
+
+        // draw the filled-in part:
+        GUI.BeginGroup(new Rect(0, 0, size.x * barDisplay, size.y));
+        GUI.Box(new Rect(0, 0, size.x, size.y), progressBarFull);
+        GUI.EndGroup();
+
+        GUI.EndGroup();
     }
 
     private void Attack(Vector3 center, float radius) {
