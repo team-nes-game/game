@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 7b800ffea87f94b4d8feca4a159bba55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6411067241589478167
+    second: Sand Raider - mS_0
+  - first:
+      213: -6842910234164575439
+    second: Sand Raider - mS_1
+  - first:
+      213: 7093183591958134829
+    second: Sand Raider - mS_2
+  - first:
+      213: 5027724863947965731
+    second: Sand Raider - mS_3
+  - first:
+      213: -6973781726814140561
+    second: Sand Raider - mS_4
+  - first:
+      213: 4703734654975896355
+    second: Sand Raider - mS_5
+  - first:
+      213: 1069373118399592587
+    second: Sand Raider - mS_6
+  - first:
+      213: -6894798042120096146
+    second: Sand Raider - mS_7
+  - first:
+      213: 5123927229870227848
+    second: Sand Raider - mS_8
+  - first:
+      213: -3162849399234884937
+    second: Sand Raider - mS_9
+  - first:
+      213: 606469803057460120
+    second: Sand Raider - mS_10
+  - first:
+      213: 3513342448271929337
+    second: Sand Raider - mS_11
+  - first:
+      213: -6391457938388623346
+    second: Sand Raider - mS_12
+  - first:
+      213: 7284004587193971293
+    second: Sand Raider - mS_13
+  - first:
+      213: -2199366432643800236
+    second: Sand Raider - mS_14
+  - first:
+      213: 167324358509851130
+    second: Sand Raider - mS_15
+  - first:
+      213: -3667416281202283450
+    second: Sand Raider - mS_16
+  - first:
+      213: 6569182826967322254
+    second: Sand Raider - mS_17
+  - first:
+      213: -5067547767284904688
+    second: Sand Raider - mS_18
+  - first:
+      213: -3128913722905565171
+    second: Sand Raider - mS_19
+  - first:
+      213: 1301418345255501680
+    second: Sand Raider - mS_20
+  - first:
+      213: 172735553866691270
+    second: Sand Raider - mS_21
+  - first:
+      213: -2565550544873901257
+    second: Sand Raider - mS_22
+  - first:
+      213: -7066264406117423173
+    second: Sand Raider - mS_23
+  - first:
+      213: 7427311895043212886
+    second: Sand Raider - mS_24
+  - first:
+      213: 6235882019015262729
+    second: Sand Raider - mS_25
+  - first:
+      213: 2280323118374245439
+    second: Sand Raider - mS_26
+  - first:
+      213: 8304165282895817940
+    second: Sand Raider - mS_27
+  - first:
+      213: -591513126530983795
+    second: Sand Raider - mS_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sand Raider - mS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199e3326154a22f40b2f6effeb0ade7e
+      internalID: 6411067241589478167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691a6041d845a5b4586181dd24dc9e58
+      internalID: -6842910234164575439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1
+        width: 81
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8032f148136ece44288ad7329a6726cc
+      internalID: 7093183591958134829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1
+        width: 79
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8067ea2ee99fb4d9f091af90e7d17c
+      internalID: 5027724863947965731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_4
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1
+        width: 79
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0497cd792eb1d74eaf5e238c47fcb97
+      internalID: -6973781726814140561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_5
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1
+        width: 79
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016379c110b00d04c94d7ffc1d3aece9
+      internalID: 4703734654975896355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_6
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 2
+        width: 79
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80caa90b1bda3394eb02a7e653faa8b0
+      internalID: 1069373118399592587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 2
+        width: 80
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea155f8c6e89af43a2244f3e7f2ea3d
+      internalID: -6894798042120096146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_8
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2
+        width: 79
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9fb9ec4f34b9747b41da4915c23b66
+      internalID: 5123927229870227848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_9
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 5
+        width: 76
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f763d2d430f4a4a85e85a2322bd7cc
+      internalID: -3162849399234884937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_10
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 6
+        width: 75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559e4a4c90cbb144b8183afbddeed0c8
+      internalID: 606469803057460120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_11
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 8
+        width: 77
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50dfee5ca15fa54db990a0b7a0617fd
+      internalID: 3513342448271929337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_12
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 7
+        width: 76
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a7a2f5b36aca04ebd5c06ee61fd7b6
+      internalID: -6391457938388623346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_13
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 6
+        width: 75
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92033c07734bd047a2743c37a6a54d1
+      internalID: 7284004587193971293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_14
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 2
+        width: 75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136ab7108ac25fe44aca09100334ac5c
+      internalID: -2199366432643800236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_15
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1
+        width: 73
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dd46e7c8af8614f817915c1a993d7e
+      internalID: 167324358509851130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_16
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1
+        width: 73
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b979f887148f748b18916b3be54e31
+      internalID: -3667416281202283450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_17
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 0
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de7d79e2c04c1a40b9c0cc8e30200df
+      internalID: 6569182826967322254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_18
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 0
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a077d9970d25a4f42a873e7bec688c53
+      internalID: -5067547767284904688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_19
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 0
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fc78029c5dec749ba0c4c110131e1b
+      internalID: -3128913722905565171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_20
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 0
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a7d943ef27fc440b44b6600bef35e8
+      internalID: 1301418345255501680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_21
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 0
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654b7a0db9ff76249aafe2f21489f088
+      internalID: 172735553866691270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_22
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 0
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107419704aa453d43b361231efb1e833
+      internalID: -2565550544873901257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_23
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 0
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5316c5e2c8537ca4285e14b4206320cd
+      internalID: -7066264406117423173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_24
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 0
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2058081c4896254cbef562020415d78
+      internalID: 7427311895043212886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_25
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 6
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4348af0e9dfd10e43a0d4dec03e36f57
+      internalID: 6235882019015262729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_26
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 6
+        width: 75
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bca3b08fa82074290890f8bcc5c6c9
+      internalID: 2280323118374245439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_27
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 6
+        width: 77
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb4d429ad496bb43805f4e867a3b5de
+      internalID: 8304165282895817940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sand Raider - mS_28
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 5
+        width: 77
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e973f02caa938994482a7b1183ad173d
+      internalID: -591513126530983795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d81a4fd12758ec54b8b286a37a469346
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
