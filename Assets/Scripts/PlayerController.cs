@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour {
     private float LAST_X, LAST_Y;
     private enum STATE { idle, walk, start_attack, attacking, dead, kb };
 
-    float barDisplay = 0;
+    private float barDisplay = 1;
     Vector2 pos = new Vector2(20,40);
     Vector2 size = new Vector2(120,20);
     Texture2D progressBarEmpty;
@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour {
 
 
         // GUI Health Bar
-        barDisplay = CUR_HEALTH;
+        barDisplay = (float)CUR_HEALTH/MAX_HEALTH;
 
         // Pause
         if (Input.GetKeyDown(KeyCode.Escape))
