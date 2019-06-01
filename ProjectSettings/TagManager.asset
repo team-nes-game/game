@@ -6,6 +6,7 @@ TagManager:
   tags:
   - hitable
   - Enemy
+  - WC
   layers:
   - Default
   - TransparentFX

@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Forest Scene.unity
+    guid: 8ed71d72620dbab4197a46d51dc33317
+  - enabled: 1
+    path: Assets/Scenes/Frozen Cave Scene.unity
+    guid: a4431d097b509014d801fdd6c9376ba7
+  - enabled: 1
+    path: Assets/Scenes/Frozen Mountain Scene.unity
+    guid: 9b7c0149cb1e2954aaf84c817a26ee87
   m_configObjects: {}

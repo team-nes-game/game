@@ -192,14 +192,16 @@ public class PlayerController : MonoBehaviour {
     	ANIMATOR.SetFloat("lastX", LAST_X);
 	    ANIMATOR.SetFloat("lastY", LAST_Y);
 	    ANIMATOR.SetBool("Moving", false);
-	    //SELF.GetComponent<Rigidbody2D>().isKinematic = true;
+	    SELF.GetComponent<Rigidbody2D>().isKinematic = true;
     	ANIMATOR.SetBool("Attacking", true);
         //Attack(transform.position, 20);
     	yield return null;   	
     	ANIMATOR.SetBool("Attacking", false);
     	yield return new WaitForSeconds(1f);
     	STATUS = STATE.idle;
-    	//SELF.GetComponent<Rigidbody2D>().isKinematic = false;
+        //Rigidbody2D body = GetComponent<Rigidbody2D>();
+        //body.velocity = Vector3.zero;
+        SELF.GetComponent<Rigidbody2D>().isKinematic = false;
     }
 
     public IEnumerator player_kb(Vector3 other, float kb, float kbtime){

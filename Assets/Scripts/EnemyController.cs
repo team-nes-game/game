@@ -24,6 +24,7 @@ public class EnemyController : MonoBehaviour {
     private bool DYING;
     private bool DEAD;
     private bool KNOCKED;
+    private WorldController WORLD_CONTROLLER;
 
     // Start is called before the first frame update
     void Start() {
@@ -35,6 +36,8 @@ public class EnemyController : MonoBehaviour {
         DYING = false;
         DEAD = false;
         KNOCKED = false;
+        WORLD_CONTROLLER = GameObject.FindGameObjectWithTag("WC").GetComponent<WorldController>();
+        WORLD_CONTROLLER.RegisterEnemy();
     }
 
     // Update is called once per frame
@@ -117,6 +120,7 @@ public class EnemyController : MonoBehaviour {
         DEAD = true;
         //make sure the player cant kick the corpse around
         SELF.GetComponent<Rigidbody2D>().isKinematic = true;
+        WORLD_CONTROLLER.EnemyDead();
     }
 
     public void SetKnocked(){
