@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     //https://answers.unity.com/questions/532619/pause-menu-3.html
-    void  TheMainMenu()
+    void  pauseMenu(int windowID)
     {
         if (GUILayout.Button("Main Menu"))
         {
@@ -87,7 +87,25 @@ public class PlayerController : MonoBehaviour {
         }
         if (GUILayout.Button("Restart"))
         {
-            //Application.LoadLevel("InGame");
+            Application.LoadLevel(Application.loadedLevel);
+            Time.timeScale = 1;
+        }
+        if (GUILayout.Button("Quit"))
+        {
+            Application.Quit();
+        }
+    }
+
+    void deadMenu(int windowID)
+    {
+        if (GUILayout.Button("Main Menu"))
+        {
+            //Application.LoadLevel("MainMenu");
+        }
+        if (GUILayout.Button("Restart"))
+        {
+            Application.LoadLevel(Application.loadedLevel);
+            Time.timeScale = 1;
         }
         if (GUILayout.Button("Quit"))
         {
@@ -100,12 +118,24 @@ public class PlayerController : MonoBehaviour {
     {
         if (isPause)
         {
-            //GUI.Window(0, MainMenu, TheMainMenu, "Pause Menu");
+            GUI.Window(0, MainMenu, pauseMenu, "Pause Menu");
             GUI.BeginGroup(new Rect(Screen.width / 2, Screen.height / 2, size.x, size.y));
             GUI.Box(new Rect(0, 0, size.x, size.y), progressBarEmpty);
 
             GUI.BeginGroup(new Rect(0, 0, size.x, size.y));
             GUI.Box(new Rect(0, 0, size.x, size.y), "Paused");
+            GUI.EndGroup();
+            GUI.EndGroup();
+        }
+
+        if(STATUS == STATE.dead)
+        {
+            GUI.Window(0, MainMenu, pauseMenu, "Dead Menu");
+            GUI.BeginGroup(new Rect(Screen.width / 2, Screen.height / 2, size.x, size.y));
+            GUI.Box(new Rect(0, 0, size.x, size.y), progressBarEmpty);
+
+            GUI.BeginGroup(new Rect(0, 0, size.x, size.y));
+            GUI.Box(new Rect(0, 0, size.x, size.y), "Dead");
             GUI.EndGroup();
             GUI.EndGroup();
         }
