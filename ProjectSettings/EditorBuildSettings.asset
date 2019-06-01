@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Frozen Mountain Scene.unity
     guid: 9b7c0149cb1e2954aaf84c817a26ee87
+  - enabled: 1
+    path: Assets/Scenes/Desert Scene.unity
+    guid: d17f028d1d581a748adb71e2a802bb1f
+  - enabled: 1
+    path: Assets/Scenes/Temple Scene.unity
+    guid: 4c073b612a78a9f449931b79c33eaaa0
   m_configObjects: {}
