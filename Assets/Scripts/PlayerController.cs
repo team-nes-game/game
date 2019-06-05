@@ -120,7 +120,7 @@ public class PlayerController : MonoBehaviour {
         {
             GUI.Window(0, MainMenu, pauseMenu, "Pause Menu");
             GUI.BeginGroup(new Rect(Screen.width / 2, Screen.height / 2, size.x, size.y));
-            GUI.Box(new Rect(0, 0, size.x, size.y), progressBarEmpty);
+            //GUI.Box(new Rect(0, 0, size.x, size.y), progressBarEmpty);
 
             GUI.BeginGroup(new Rect(0, 0, size.x, size.y));
             GUI.Box(new Rect(0, 0, size.x, size.y), "Paused");
@@ -132,7 +132,7 @@ public class PlayerController : MonoBehaviour {
         {
             GUI.Window(0, MainMenu, pauseMenu, "Dead Menu");
             GUI.BeginGroup(new Rect(Screen.width / 2, Screen.height / 2, size.x, size.y));
-            GUI.Box(new Rect(0, 0, size.x, size.y), progressBarEmpty);
+            //GUI.Box(new Rect(0, 0, size.x, size.y), progressBarEmpty);
 
             GUI.BeginGroup(new Rect(0, 0, size.x, size.y));
             GUI.Box(new Rect(0, 0, size.x, size.y), "Dead");
