@@ -1,17 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public bool start;
+    public bool exit;
+
+    private void OnMouseUp()
     {
-        var button = Instantiate(RoomButton, Vector3.zero, Quaternion.identity) as Button;
-        var rectTransform = button.GetComponent<RectTransform>();
-        rectTransform.SetParent(Canvas.transform);
-        rectTransform.offsetMin = Vector2.zero;
-        rectTransform.offsetMax = Vector2.zero;
-        button.onClick.AddListener(SpawnPlayer);
+        if (start)
+        {
+            SceneManager.LoadScene(1);
+        }
+        if (exit)
+        {
+            Application.Quit();
+        }
     }
 }

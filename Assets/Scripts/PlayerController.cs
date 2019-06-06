@@ -92,7 +92,7 @@ public class PlayerController : MonoBehaviour {
         }
         if (GUILayout.Button("Quit"))
         {
-            Application.Quit();
+            Application.LoadLevel(0);
         }
     }
 
@@ -109,7 +109,7 @@ public class PlayerController : MonoBehaviour {
         }
         if (GUILayout.Button("Quit"))
         {
-            Application.Quit();
+            Application.LoadLevel(0);
         }
     }
 
