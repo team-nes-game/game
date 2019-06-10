@@ -47,10 +47,6 @@ public class PlayerController : MonoBehaviour {
 
 	// Called every frame, keep it low on cost pls
     private void Update() {
-    	if (STATUS == STATE.idle || STATUS == STATE.walk){
-    		MoveCharacter();
-    		Animate(MOVEMENT);
-    	}
     	if(Input.GetAxisRaw("Attack") == 1 && STATUS != STATE.attacking){
             STATUS = STATE.start_attack;
     	}
@@ -208,8 +204,13 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void FixedUpdate() {
-    	// Ded
-    	if (CUR_HEALTH <= 0) {
+        if (STATUS == STATE.idle || STATUS == STATE.walk)
+        {
+            MoveCharacter();
+            Animate(MOVEMENT);
+        }
+        // Ded
+        if (CUR_HEALTH <= 0) {
     		STATUS = STATE.dead;
     	}
     	if(STATUS == STATE.start_attack){
