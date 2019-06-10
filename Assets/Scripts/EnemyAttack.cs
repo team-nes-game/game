@@ -12,6 +12,7 @@ public class EnemyAttack : MonoBehaviour
     	if(other.CompareTag("Player")){
     		PlayerController cont = other.GetComponent<PlayerController>();
     		cont.TakeDmg(DAMAGE, FORCE, DURATION, transform.position);
+            FindObjectOfType<AudioController>().Play("RAID_SWING");
     	} 
     }
 }

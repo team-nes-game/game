@@ -228,7 +228,9 @@ public class PlayerController : MonoBehaviour {
         //Attack(transform.position, 20);
     	yield return null;   	
     	ANIMATOR.SetBool("Attacking", false);
-    	yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.3f);
+        FindObjectOfType<AudioController>().Play("PLAYER_SWING");
+        yield return new WaitForSeconds(1f);
     	STATUS = STATE.idle;
         //Rigidbody2D body = GetComponent<Rigidbody2D>();
         //body.velocity = Vector3.zero;
