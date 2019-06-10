@@ -7,6 +7,8 @@ public class StartMenu : MonoBehaviour
 {
     public bool start;
     public bool exit;
+    public bool info;
+    public bool back;
 
     private void OnMouseUp()
     {
@@ -14,9 +16,17 @@ public class StartMenu : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
+        if (info)
+        {
+            Debug.Log("instructions go here");
+        }
         if (exit)
         {
             Application.Quit();
+        }
+        if (back)
+        {
+            SceneManager.LoadScene(0);
         }
     }
 }
