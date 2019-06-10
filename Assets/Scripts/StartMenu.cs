@@ -18,7 +18,7 @@ public class StartMenu : MonoBehaviour
         }
         if (info)
         {
-            Debug.Log("instructions go here");
+            SceneManager.LoadScene(6);
         }
         if (exit)
         {
